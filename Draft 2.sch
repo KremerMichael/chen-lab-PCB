@@ -1128,7 +1128,6 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/tb002-500.pdf"&g
 <part name="BR1" library="SamacSys_Parts" deviceset="CS1M-E3_H" device=""/>
 <part name="BR2" library="SamacSys_Parts" deviceset="CS1M-E3_H" device=""/>
 <part name="J1" library="SamacSys_Parts" deviceset="N2534-6V0C-RB-WF" device=""/>
-<part name="TP1" library="SamacSys_Parts" deviceset="RCT-0C" device=""/>
 <part name="TP2" library="SamacSys_Parts" deviceset="RCT-0C" device=""/>
 <part name="TP3" library="SamacSys_Parts" deviceset="RCT-0C" device=""/>
 <part name="TP4" library="SamacSys_Parts" deviceset="RCT-0C" device=""/>
@@ -1169,6 +1168,7 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/tb002-500.pdf"&g
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="TP1" library="SamacSys_Parts" deviceset="RCT-0C" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1237,10 +1237,6 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/tb002-500.pdf"&g
 <instance part="J1" gate="G$1" x="-86.36" y="71.12" smashed="yes">
 <attribute name="NAME" x="-80.01" y="76.2" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-67.31" y="76.2" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="TP1" gate="G$1" x="-33.02" y="76.2" smashed="yes">
-<attribute name="NAME" x="-16.51" y="78.74" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-16.51" y="76.2" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="TP2" gate="G$1" x="-33.02" y="68.58" smashed="yes">
 <attribute name="NAME" x="-16.51" y="71.12" size="1.778" layer="95" align="center-left"/>
@@ -1384,6 +1380,10 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/tb002-500.pdf"&g
 <instance part="GND8" gate="1" x="132.08" y="-7.62" smashed="yes">
 <attribute name="VALUE" x="129.54" y="-10.16" size="1.778" layer="96"/>
 </instance>
+<instance part="TP1" gate="G$1" x="-33.02" y="76.2" smashed="yes">
+<attribute name="NAME" x="-16.51" y="78.74" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-16.51" y="76.2" size="1.778" layer="96" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1433,19 +1433,19 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/tb002-500.pdf"&g
 <pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="-48.26" y1="-15.24" x2="-50.8" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-15.24" x2="-50.8" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="-27.94" x2="-50.8" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="J5" gate="G$1" pin="4"/>
-<wire x1="-50.8" y1="-38.1" x2="-50.8" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="-50.8" x2="-50.8" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="-27.94" x2="-50.8" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="-40.64" x2="-50.8" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="-53.34" x2="-50.8" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="-27.94" x2="-50.8" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="-50.8" y="-27.94"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="J3" gate="G$1" pin="5"/>
-<wire x1="-48.26" y1="-50.8" x2="-50.8" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="-50.8" y="-50.8"/>
-<pinref part="J6" gate="G$1" pin="5"/>
-<wire x1="-48.26" y1="-38.1" x2="-50.8" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="-50.8" y="-38.1"/>
+<pinref part="J6" gate="G$1" pin="4"/>
+<wire x1="-48.26" y1="-40.64" x2="-50.8" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="-50.8" y="-40.64"/>
+<pinref part="J3" gate="G$1" pin="4"/>
+<wire x1="-48.26" y1="-53.34" x2="-50.8" y2="-53.34" width="0.1524" layer="91"/>
+<junction x="-50.8" y="-53.34"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -1842,9 +1842,9 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/tb002-500.pdf"&g
 <label x="-81.28" y="-45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="4"/>
-<wire x1="-48.26" y1="-40.64" x2="-53.34" y2="-40.64" width="0.1524" layer="91"/>
-<label x="-53.34" y="-40.64" size="1.778" layer="95" rot="R180"/>
+<pinref part="J6" gate="G$1" pin="5"/>
+<wire x1="-48.26" y1="-38.1" x2="-53.34" y2="-38.1" width="0.1524" layer="91"/>
+<label x="-53.34" y="-38.1" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -2070,14 +2070,14 @@ Source: &lt;a href="https://www.cuidevices.com/product/resource/tb002-500.pdf"&g
 </net>
 <net name="3Y" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="-48.26" y1="-53.34" x2="-53.34" y2="-53.34" width="0.1524" layer="91"/>
-<label x="-53.34" y="-53.34" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="3Y"/>
 <wire x1="-109.22" y1="-43.18" x2="-111.76" y2="-43.18" width="0.1524" layer="91"/>
 <label x="-111.76" y="-43.18" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="5"/>
+<wire x1="-48.26" y1="-50.8" x2="-53.34" y2="-50.8" width="0.1524" layer="91"/>
+<label x="-53.34" y="-50.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="C" class="0">
