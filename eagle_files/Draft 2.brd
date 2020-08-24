@@ -632,27 +632,27 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BR1" library="SamacSys_Parts" package="DIOM5127X229N" value="CS1M-E3_H" x="88.9" y="124.46" smashed="yes">
-<attribute name="DESCRIPTION" value="1A, 1000V, SMA, STD GPP SM REC" x="142.24" y="41.91" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2.29mm" x="142.24" y="41.91" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="142.24" y="41.91" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CS1M-E3/H" x="142.24" y="41.91" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="78-CS1M-E3/H" x="142.24" y="41.91" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/CS1M-E3-H?qs=rKqJIm0tnYHmxMgyZiw7hg%3D%3D" x="142.24" y="41.91" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="88.9" y="121.92" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="142.24" y="41.91" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="142.24" y="41.91" size="1.778" layer="27" display="off"/>
+<element name="BR1" library="SamacSys_Parts" package="DIOM5127X229N" value="CS1M-E3_H" x="95.25" y="119.38" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="1A, 1000V, SMA, STD GPP SM REC" x="12.7" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="2.29mm" x="12.7" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="12.7" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CS1M-E3/H" x="12.7" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="78-CS1M-E3/H" x="12.7" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/CS1M-E3-H?qs=rKqJIm0tnYHmxMgyZiw7hg%3D%3D" x="12.7" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="92.71" y="119.38" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="12.7" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="12.7" y="66.04" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="BR2" library="SamacSys_Parts" package="DIOM5127X229N" value="CS1M-E3_H" x="88.9" y="113.03" smashed="yes">
-<attribute name="DESCRIPTION" value="1A, 1000V, SMA, STD GPP SM REC" x="153.67" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2.29mm" x="153.67" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="153.67" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CS1M-E3/H" x="153.67" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="78-CS1M-E3/H" x="153.67" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/CS1M-E3-H?qs=rKqJIm0tnYHmxMgyZiw7hg%3D%3D" x="153.67" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="88.9" y="115.57" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="153.67" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="153.67" y="30.48" size="1.778" layer="27" display="off"/>
+<element name="BR2" library="SamacSys_Parts" package="DIOM5127X229N" value="CS1M-E3_H" x="95.504" y="108.077" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="1A, 1000V, SMA, STD GPP SM REC" x="12.954" y="43.307" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="2.29mm" x="12.954" y="43.307" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="12.954" y="43.307" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CS1M-E3/H" x="12.954" y="43.307" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="78-CS1M-E3/H" x="12.954" y="43.307" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/CS1M-E3-H?qs=rKqJIm0tnYHmxMgyZiw7hg%3D%3D" x="12.954" y="43.307" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="98.044" y="108.077" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="12.954" y="43.307" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="12.954" y="43.307" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C1" library="SamacSys_Parts" package="CAPC6153X670N" value="KRM55WC71E107MH13L" x="72.39" y="97.79" smashed="yes">
 <attribute name="DESCRIPTION" value="Capacitor KRM55 L=6.1mm W=5.3mm T=6.4mm" x="144.78" y="22.86" size="1.778" layer="27" display="off"/>
@@ -852,31 +852,31 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691305540002?qs=2WXlatMagcE8Kf37bwMEoA%3D%3D" x="182.88" y="161.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="120.65" y="116.84" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
-<element name="Q1" library="SamacSys_Parts" package="SOT230P700X175-4N" value="BCP56-16T3G" x="99.06" y="121.92" smashed="yes">
-<attribute name="ALLIED_NUMBER" value="70275391" x="139.7" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="http://www.alliedelec.com/on-semiconductor-bcp56-16t3g/70275391/" x="139.7" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="" x="139.7" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.75mm" x="139.7" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="139.7" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BCP56-16T3G" x="139.7" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-BCP56-16T3G" x="139.7" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BCP56-16T3G?qs=vNc2DXHODiKP3hbUlJd5DQ%3D%3D" x="139.7" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="102.87" y="125.73" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="7737633P" x="139.7" y="45.72" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7737633P" x="139.7" y="45.72" size="1.778" layer="27" display="off"/>
+<element name="Q1" library="SamacSys_Parts" package="SOT230P700X175-4N" value="BCP56-16T3G" x="102.87" y="121.92" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70275391" x="143.51" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="http://www.alliedelec.com/on-semiconductor-bcp56-16t3g/70275391/" x="143.51" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="143.51" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="143.51" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="143.51" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BCP56-16T3G" x="143.51" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-BCP56-16T3G" x="143.51" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BCP56-16T3G?qs=vNc2DXHODiKP3hbUlJd5DQ%3D%3D" x="143.51" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="106.68" y="125.73" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="7737633P" x="143.51" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7737633P" x="143.51" y="45.72" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q2" library="SamacSys_Parts" package="SOT230P700X175-4N" value="BCP56-16T3G" x="99.06" y="110.49" smashed="yes">
-<attribute name="ALLIED_NUMBER" value="70275391" x="153.67" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="http://www.alliedelec.com/on-semiconductor-bcp56-16t3g/70275391/" x="153.67" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="" x="153.67" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.75mm" x="153.67" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="153.67" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="BCP56-16T3G" x="153.67" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="863-BCP56-16T3G" x="153.67" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BCP56-16T3G?qs=vNc2DXHODiKP3hbUlJd5DQ%3D%3D" x="153.67" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="102.87" y="114.3" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="7737633P" x="153.67" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7737633P" x="153.67" y="34.29" size="1.778" layer="27" display="off"/>
+<element name="Q2" library="SamacSys_Parts" package="SOT230P700X175-4N" value="BCP56-16T3G" x="102.87" y="110.49" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70275391" x="157.48" y="34.29" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="http://www.alliedelec.com/on-semiconductor-bcp56-16t3g/70275391/" x="157.48" y="34.29" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="" x="157.48" y="34.29" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="157.48" y="34.29" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" x="157.48" y="34.29" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BCP56-16T3G" x="157.48" y="34.29" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="863-BCP56-16T3G" x="157.48" y="34.29" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BCP56-16T3G?qs=vNc2DXHODiKP3hbUlJd5DQ%3D%3D" x="157.48" y="34.29" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="106.68" y="114.3" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="7737633P" x="157.48" y="34.29" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7737633P" x="157.48" y="34.29" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R1" library="SamacSys_Parts" package="RESC3116X70N" value="ERJ-P08F3900V" x="88.9" y="119.38" smashed="yes">
 <attribute name="DESCRIPTION" value="Panasonic ERJP08 Series Thick Film Surface Mount Resistor 1206 Case 390 +/-1% 0.66W +/-100ppm/C" x="124.46" y="31.75" size="1.778" layer="27" display="off"/>
@@ -1093,29 +1093,6 @@ design rules under a new name.</description>
 </element>
 </elements>
 <signals>
-<signal name="C">
-<contactref element="IC3" pad="5"/>
-<contactref element="IC2" pad="5"/>
-<contactref element="Q1" pad="2"/>
-<contactref element="Q2" pad="2"/>
-<contactref element="Q1" pad="4"/>
-<contactref element="Q2" pad="4"/>
-<contactref element="J11" pad="1"/>
-<wire x1="102.46" y1="121.92" x2="95.66" y2="121.92" width="0.762" layer="1"/>
-<wire x1="95.66" y1="110.49" x2="102.46" y2="110.49" width="0.762" layer="1"/>
-<via x="107.95" y="110.49" extent="1-16" drill="0.35"/>
-<wire x1="116.84" y1="3.81" x2="107.95" y2="12.7" width="1.27" layer="1"/>
-<wire x1="107.95" y1="12.7" x2="107.95" y2="30.48" width="1.27" layer="1"/>
-<via x="107.95" y="30.48" extent="1-16" drill="0.35"/>
-<wire x1="107.95" y1="30.48" x2="107.95" y2="110.49" width="1.27" layer="16"/>
-<wire x1="102.46" y1="110.49" x2="107.95" y2="110.49" width="1.27" layer="1"/>
-<wire x1="102.46" y1="121.92" x2="105.41" y2="121.92" width="1.27" layer="1"/>
-<via x="107.95" y="121.92" extent="1-16" drill="0.35"/>
-<wire x1="105.41" y1="121.92" x2="107.95" y2="121.92" width="1.27" layer="1"/>
-<wire x1="107.95" y1="121.92" x2="107.95" y2="110.49" width="1.27" layer="16"/>
-<wire x1="81.05" y1="121.92" x2="95.66" y2="121.92" width="0.762" layer="1"/>
-<wire x1="81.05" y1="110.49" x2="95.66" y2="110.49" width="0.762" layer="1"/>
-</signal>
 <signal name="VCC">
 <contactref element="C1" pad="2"/>
 <contactref element="R10" pad="1"/>
@@ -1150,8 +1127,6 @@ design rules under a new name.</description>
 <contactref element="J11" pad="2"/>
 <contactref element="R5" pad="1"/>
 <contactref element="R6" pad="1"/>
-<contactref element="BR1" pad="1"/>
-<contactref element="BR2" pad="1"/>
 <contactref element="J12" pad="3"/>
 <contactref element="J13" pad="3"/>
 <contactref element="J14" pad="3"/>
@@ -1201,10 +1176,6 @@ design rules under a new name.</description>
 <via x="95.25" y="91.44" extent="1-16" drill="0.35"/>
 <wire x1="69.86" y1="97.79" x2="67.31" y2="97.79" width="0.762" layer="1"/>
 <via x="67.31" y="97.79" extent="1-16" drill="0.35"/>
-<wire x1="86.85" y1="113.03" x2="83.82" y2="113.03" width="0.762" layer="1"/>
-<wire x1="86.85" y1="124.46" x2="83.82" y2="124.46" width="0.762" layer="1"/>
-<via x="83.82" y="124.46" extent="1-16" drill="0.35"/>
-<via x="83.82" y="113.03" extent="1-16" drill="0.35"/>
 <wire x1="114.3" y1="124.37" x2="110.58" y2="124.37" width="0.762" layer="1"/>
 <wire x1="110.58" y1="124.37" x2="110.49" y2="124.46" width="0.508" layer="1"/>
 <via x="110.49" y="124.46" extent="1-16" drill="0.35"/>
@@ -1243,44 +1214,6 @@ design rules under a new name.</description>
 <contactref element="R1" pad="1"/>
 <contactref element="IC2" pad="4"/>
 <wire x1="87.45" y1="119.38" x2="81.05" y2="119.38" width="0.508" layer="1"/>
-</signal>
-<signal name="N$15">
-<contactref element="R1" pad="2"/>
-<contactref element="Q1" pad="3"/>
-<contactref element="R5" pad="2"/>
-<contactref element="J9" pad="1"/>
-<wire x1="95.66" y1="119.62" x2="95.01" y2="119.62" width="0.508" layer="1"/>
-<wire x1="95.01" y1="119.62" x2="95.25" y2="119.38" width="0.508" layer="1"/>
-<wire x1="95.25" y1="119.38" x2="114.21" y2="119.38" width="0.508" layer="1"/>
-<wire x1="114.21" y1="119.38" x2="114.3" y2="119.47" width="0.508" layer="1"/>
-<wire x1="95.66" y1="119.62" x2="95.42" y2="119.38" width="0.508" layer="1"/>
-<wire x1="95.42" y1="119.38" x2="90.35" y2="119.38" width="0.508" layer="1"/>
-<wire x1="114.3" y1="119.47" x2="114.39" y2="119.38" width="0.508" layer="1"/>
-<wire x1="114.39" y1="119.38" x2="124.46" y2="119.38" width="0.508" layer="1"/>
-</signal>
-<signal name="N$7">
-<contactref element="R2" pad="2"/>
-<contactref element="Q2" pad="3"/>
-<contactref element="R6" pad="2"/>
-<contactref element="J10" pad="1"/>
-<wire x1="114.3" y1="102.87" x2="114.3" y2="102.96" width="0.508" layer="1"/>
-<wire x1="124.46" y1="102.87" x2="114.3" y2="102.87" width="0.508" layer="1"/>
-<wire x1="95.66" y1="108.19" x2="95.42" y2="107.95" width="0.508" layer="1"/>
-<wire x1="95.42" y1="107.95" x2="90.35" y2="107.95" width="0.508" layer="1"/>
-<wire x1="95.66" y1="108.19" x2="108.98" y2="108.19" width="0.508" layer="1"/>
-<wire x1="108.98" y1="108.19" x2="114.3" y2="102.87" width="0.508" layer="1"/>
-</signal>
-<signal name="N$16">
-<contactref element="BR1" pad="2"/>
-<contactref element="Q1" pad="1"/>
-<wire x1="95.66" y1="124.22" x2="91.19" y2="124.22" width="0.508" layer="1"/>
-<wire x1="91.19" y1="124.22" x2="90.95" y2="124.46" width="0.508" layer="1"/>
-</signal>
-<signal name="N$2">
-<contactref element="BR2" pad="2"/>
-<contactref element="Q2" pad="1"/>
-<wire x1="95.66" y1="112.79" x2="91.19" y2="112.79" width="0.508" layer="1"/>
-<wire x1="91.19" y1="112.79" x2="90.95" y2="113.03" width="0.508" layer="1"/>
 </signal>
 <signal name="JACK13">
 <contactref element="J1" pad="4"/>
@@ -1545,6 +1478,86 @@ design rules under a new name.</description>
 <via x="78.74" y="34.29" extent="1-16" drill="0.35"/>
 <wire x1="78.74" y1="34.29" x2="113.03" y2="34.29" width="1.27" layer="1"/>
 <wire x1="78.74" y1="34.29" x2="78.74" y2="66.04" width="1.27" layer="16"/>
+</signal>
+<signal name="N$3">
+<contactref element="R1" pad="2"/>
+<contactref element="R5" pad="2"/>
+<contactref element="Q1" pad="1"/>
+<wire x1="99.47" y1="124.22" x2="99.71" y2="124.46" width="0.508" layer="1"/>
+<wire x1="114.21" y1="119.47" x2="114.3" y2="119.47" width="0.508" layer="1"/>
+<wire x1="99.71" y1="124.46" x2="109.22" y2="124.46" width="0.508" layer="1"/>
+<wire x1="109.22" y1="124.46" x2="114.21" y2="119.47" width="0.508" layer="1"/>
+<wire x1="90.35" y1="119.38" x2="91.44" y2="119.38" width="0.508" layer="1"/>
+<via x="91.44" y="119.38" extent="1-16" drill="0.35"/>
+<wire x1="91.44" y1="119.38" x2="91.44" y2="124.46" width="0.508" layer="16"/>
+<via x="91.44" y="124.46" extent="1-16" drill="0.35"/>
+<wire x1="91.44" y1="124.46" x2="99.23" y2="124.46" width="0.508" layer="1"/>
+<wire x1="99.23" y1="124.46" x2="99.47" y2="124.22" width="0.508" layer="1"/>
+</signal>
+<signal name="N$7">
+<contactref element="Q1" pad="3"/>
+<contactref element="J9" pad="1"/>
+<contactref element="BR1" pad="2"/>
+<wire x1="95.25" y1="117.33" x2="97.18" y2="117.33" width="0.508" layer="1"/>
+<wire x1="97.18" y1="117.33" x2="99.47" y2="119.62" width="0.508" layer="1"/>
+<wire x1="99.47" y1="119.62" x2="100.09" y2="119.62" width="0.508" layer="1"/>
+<wire x1="100.09" y1="119.62" x2="102.87" y2="116.84" width="0.508" layer="1"/>
+<wire x1="121.92" y1="116.84" x2="124.46" y2="119.38" width="0.508" layer="1"/>
+<wire x1="102.87" y1="116.84" x2="121.92" y2="116.84" width="0.508" layer="1"/>
+</signal>
+<signal name="N$11">
+<contactref element="R2" pad="2"/>
+<contactref element="R6" pad="2"/>
+<contactref element="Q2" pad="1"/>
+<wire x1="114.3" y1="102.96" x2="114.21" y2="102.87" width="0.508" layer="1"/>
+<wire x1="114.21" y1="102.87" x2="95.25" y2="102.87" width="0.508" layer="1"/>
+<wire x1="95.25" y1="102.87" x2="90.35" y2="107.77" width="0.508" layer="1"/>
+<wire x1="90.35" y1="107.77" x2="90.35" y2="107.95" width="0.508" layer="1"/>
+<via x="95.25" y="102.87" extent="1-16" drill="0.35"/>
+<wire x1="95.25" y1="102.87" x2="95.25" y2="113.03" width="0.508" layer="16"/>
+<via x="95.25" y="113.03" extent="1-16" drill="0.35"/>
+<wire x1="95.25" y1="113.03" x2="99.23" y2="113.03" width="0.508" layer="1"/>
+<wire x1="99.23" y1="113.03" x2="99.47" y2="112.79" width="0.508" layer="1"/>
+</signal>
+<signal name="N$8">
+<contactref element="Q2" pad="2"/>
+<contactref element="IC3" pad="5"/>
+<contactref element="Q2" pad="4"/>
+<contactref element="Q1" pad="4"/>
+<contactref element="Q1" pad="2"/>
+<contactref element="J11" pad="1"/>
+<contactref element="IC2" pad="5"/>
+<contactref element="BR1" pad="1"/>
+<contactref element="BR2" pad="1"/>
+<wire x1="95.504" y1="110.127" x2="95.867" y2="110.49" width="0.508" layer="1"/>
+<wire x1="95.867" y1="110.49" x2="99.47" y2="110.49" width="0.508" layer="1"/>
+<wire x1="99.47" y1="121.92" x2="98.98" y2="121.43" width="0.508" layer="1"/>
+<wire x1="98.98" y1="121.43" x2="95.25" y2="121.43" width="0.508" layer="1"/>
+<wire x1="106.27" y1="121.92" x2="99.47" y2="121.92" width="0.508" layer="1"/>
+<wire x1="95.25" y1="121.43" x2="94.76" y2="121.92" width="0.508" layer="1"/>
+<wire x1="94.76" y1="121.92" x2="81.05" y2="121.92" width="0.508" layer="1"/>
+<wire x1="81.05" y1="110.49" x2="95.141" y2="110.49" width="0.508" layer="1"/>
+<wire x1="95.141" y1="110.49" x2="95.504" y2="110.127" width="0.508" layer="1"/>
+<wire x1="99.47" y1="110.49" x2="106.27" y2="110.49" width="0.508" layer="1"/>
+<wire x1="116.84" y1="3.81" x2="109.22" y2="11.43" width="0.508" layer="1"/>
+<wire x1="109.22" y1="30.48" x2="109.22" y2="11.43" width="0.508" layer="1"/>
+<via x="109.22" y="30.48" extent="1-16" drill="0.35"/>
+<wire x1="109.22" y1="121.92" x2="109.22" y2="110.49" width="0.508" layer="16"/>
+<via x="109.22" y="121.92" extent="1-16" drill="0.35"/>
+<wire x1="109.22" y1="110.49" x2="109.22" y2="30.48" width="0.508" layer="16"/>
+<wire x1="109.22" y1="121.92" x2="106.27" y2="121.92" width="0.508" layer="1"/>
+<wire x1="106.27" y1="110.49" x2="109.22" y2="110.49" width="0.508" layer="1"/>
+<via x="109.22" y="110.49" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$2">
+<contactref element="Q2" pad="3"/>
+<contactref element="J10" pad="1"/>
+<contactref element="BR2" pad="2"/>
+<wire x1="97.307" y1="106.027" x2="95.504" y2="106.027" width="0.508" layer="1"/>
+<wire x1="99.47" y1="108.19" x2="97.307" y2="106.027" width="0.508" layer="1"/>
+<wire x1="124.46" y1="102.87" x2="121.92" y2="105.41" width="0.508" layer="1"/>
+<wire x1="102.25" y1="105.41" x2="99.47" y2="108.19" width="0.508" layer="1"/>
+<wire x1="121.92" y1="105.41" x2="102.25" y2="105.41" width="0.508" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
