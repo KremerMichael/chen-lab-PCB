@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Chen_lab)(type Legacy)(uri ${KIPRJMOD}/Chen_lab.lib)(options "")(descr ""))
-)
