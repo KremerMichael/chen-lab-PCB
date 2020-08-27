@@ -1285,41 +1285,6 @@ $EndComp
 NoConn ~ 8800 3075
 NoConn ~ 8800 1400
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 5F9D4D8C
-P 8050 5425
-F 0 "H1" H 8150 5471 50  0000 L CNN
-F 1 "MountingHole" H 8150 5380 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8050 5425 50  0001 C CNN
-F 3 "~" H 8050 5425 50  0001 C CNN
-	1    8050 5425
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5F9E1E25
-P 8100 5075
-F 0 "H2" H 8200 5121 50  0000 L CNN
-F 1 "MountingHole" H 8200 5030 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8100 5075 50  0001 C CNN
-F 3 "~" H 8100 5075 50  0001 C CNN
-	1    8100 5075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5F9E1F41
-P 8400 5300
-F 0 "H3" H 8500 5346 50  0000 L CNN
-F 1 "MountingHole" H 8500 5255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8400 5300 50  0001 C CNN
-F 3 "~" H 8400 5300 50  0001 C CNN
-	1    8400 5300
-	1    0    0    -1  
-$EndComp
-Text Notes 7850 5650 0    50   ~ 0
-double check the footprint on these\n
-$Comp
 L Device:D_Small D2
 U 1 1 5F9F4ACD
 P 10200 3275
