@@ -979,83 +979,6 @@ $EndComp
 Text Notes 9425 3250 0    50   ~ 0
 check pins on npn
 $Comp
-L Connector:TestPoint TP11
-U 1 1 5F748C5D
-P 2325 4175
-F 0 "TP11" V 2279 4363 50  0000 L CNN
-F 1 "Pad" V 2370 4363 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 2525 4175 50  0001 C CNN
-F 3 "~" H 2525 4175 50  0001 C CNN
-	1    2325 4175
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP12
-U 1 1 5F748FCF
-P 2325 4375
-F 0 "TP12" V 2279 4563 50  0000 L CNN
-F 1 "Pad" V 2370 4563 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 2525 4375 50  0001 C CNN
-F 3 "~" H 2525 4375 50  0001 C CNN
-	1    2325 4375
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP6
-U 1 1 5F749A5B
-P 2325 3175
-F 0 "TP6" V 2279 3363 50  0000 L CNN
-F 1 "Pad" V 2370 3363 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 2525 3175 50  0001 C CNN
-F 3 "~" H 2525 3175 50  0001 C CNN
-	1    2325 3175
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP1
-U 1 1 5F749E62
-P 1050 3475
-F 0 "TP1" V 1050 3875 50  0000 C CNN
-F 1 "Pad" V 1050 3725 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 1250 3475 50  0001 C CNN
-F 3 "~" H 1250 3475 50  0001 C CNN
-	1    1050 3475
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP7
-U 1 1 5F74A26A
-P 2325 3375
-F 0 "TP7" V 2279 3563 50  0000 L CNN
-F 1 "Pad" V 2370 3563 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 2525 3375 50  0001 C CNN
-F 3 "~" H 2525 3375 50  0001 C CNN
-	1    2325 3375
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP8
-U 1 1 5F74A64C
-P 2325 3575
-F 0 "TP8" V 2279 3763 50  0000 L CNN
-F 1 "Pad" V 2370 3763 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 2525 3575 50  0001 C CNN
-F 3 "~" H 2525 3575 50  0001 C CNN
-	1    2325 3575
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP9
-U 1 1 5F74AA4B
-P 2325 3775
-F 0 "TP9" V 2279 3963 50  0000 L CNN
-F 1 "Pad" V 2370 3963 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 2525 3775 50  0001 C CNN
-F 3 "~" H 2525 3775 50  0001 C CNN
-	1    2325 3775
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector:TestPoint TP5
 U 1 1 5F74AE16
 P 1075 4675
@@ -1065,28 +988,6 @@ F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 1275 4675 50  0001 C CNN
 F 3 "~" H 1275 4675 50  0001 C CNN
 	1    1075 4675
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5F74B697
-P 1050 3675
-F 0 "TP3" V 1050 4075 50  0000 C CNN
-F 1 "Pad" V 1050 3925 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 1250 3675 50  0001 C CNN
-F 3 "~" H 1250 3675 50  0001 C CNN
-	1    1050 3675
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP2
-U 1 1 5F74BA55
-P 1050 3575
-F 0 "TP2" V 1050 3975 50  0000 C CNN
-F 1 "Pad" V 1050 3825 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 1250 3575 50  0001 C CNN
-F 3 "~" H 1250 3575 50  0001 C CNN
-	1    1050 3575
-	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	2050 4475 2050 4925
@@ -1101,28 +1002,6 @@ F 2 "" H 2050 4925 50  0001 C CNN
 F 3 "" H 2050 4925 50  0001 C CNN
 	1    2050 4925
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP13
-U 1 1 5F756BC4
-P 2325 4575
-F 0 "TP13" V 2279 4763 50  0000 L CNN
-F 1 "Pad" V 2370 4763 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 2525 4575 50  0001 C CNN
-F 3 "~" H 2525 4575 50  0001 C CNN
-	1    2325 4575
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP10
-U 1 1 5F746C17
-P 2325 3975
-F 0 "TP10" H 2383 4093 50  0000 L CNN
-F 1 "Pad" H 2383 4002 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 2525 3975 50  0001 C CNN
-F 3 "~" H 2525 3975 50  0001 C CNN
-	1    2325 3975
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1075 4675 1250 4675
@@ -1151,17 +1030,6 @@ Wire Wire Line
 	1250 4675 1400 4675
 Wire Wire Line
 	1400 3775 1050 3775
-$Comp
-L Connector:TestPoint TP4
-U 1 1 5F74B216
-P 1050 3775
-F 0 "TP4" V 1050 4175 50  0000 C CNN
-F 1 "Pad" V 1050 4025 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 1250 3775 50  0001 C CNN
-F 3 "~" H 1250 3775 50  0001 C CNN
-	1    1050 3775
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Connector:Conn_Coaxial J12
 U 1 1 5F89F8D4
@@ -1430,4 +1298,157 @@ F 3 "" H 8225 4425 50  0001 C CNN
 	1    8225 4425
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x13_Odd_Even J15
+U 1 1 5F5151DB
+P 1400 6200
+F 0 "J15" H 1450 7017 50  0000 C CNN
+F 1 "Conn_02x13_test_points" H 1450 6926 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical" H 1400 6200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/3M%20PDFs/961_2.54mm_StraightSolderTail_DS.pdf" H 1400 6200 50  0001 C CNN
+F 4 "Digi-Key" H 1400 6200 50  0001 C CNN "Supplier"
+F 5 "3M9466-26-ND" H 1400 6200 50  0001 C CNN "Supplier P/N"
+F 6 "961226-6404-AR" H 1400 6200 50  0001 C CNN "MFN"
+F 7 "1.96" H 1400 6200 50  0001 C CNN "Item Cost"
+	1    1400 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5600 1800 5600
+Wire Wire Line
+	1800 5600 1800 5700
+Wire Wire Line
+	1700 6800 1800 6800
+Connection ~ 1800 6800
+Wire Wire Line
+	1800 6800 1800 6950
+Wire Wire Line
+	1800 6700 1700 6700
+Connection ~ 1800 6700
+Wire Wire Line
+	1800 6700 1800 6800
+Wire Wire Line
+	1700 6600 1800 6600
+Connection ~ 1800 6600
+Wire Wire Line
+	1800 6600 1800 6700
+Wire Wire Line
+	1800 6500 1700 6500
+Connection ~ 1800 6500
+Wire Wire Line
+	1800 6500 1800 6600
+Wire Wire Line
+	1700 6400 1800 6400
+Connection ~ 1800 6400
+Wire Wire Line
+	1800 6400 1800 6500
+Wire Wire Line
+	1800 6300 1700 6300
+Connection ~ 1800 6300
+Wire Wire Line
+	1800 6300 1800 6400
+Wire Wire Line
+	1700 6200 1800 6200
+Connection ~ 1800 6200
+Wire Wire Line
+	1800 6200 1800 6300
+Wire Wire Line
+	1800 6100 1700 6100
+Connection ~ 1800 6100
+Wire Wire Line
+	1800 6100 1800 6200
+Wire Wire Line
+	1700 6000 1800 6000
+Connection ~ 1800 6000
+Wire Wire Line
+	1800 6000 1800 6100
+Wire Wire Line
+	1700 5900 1800 5900
+Connection ~ 1800 5900
+Wire Wire Line
+	1800 5900 1800 6000
+Wire Wire Line
+	1700 5800 1800 5800
+Connection ~ 1800 5800
+Wire Wire Line
+	1800 5800 1800 5900
+Wire Wire Line
+	1700 5700 1800 5700
+Connection ~ 1800 5700
+Wire Wire Line
+	1800 5700 1800 5800
+$Comp
+L power:GND #PWR0131
+U 1 1 5F56C405
+P 1800 6950
+F 0 "#PWR0131" H 1800 6700 50  0001 C CNN
+F 1 "GND" H 1805 6777 50  0000 C CNN
+F 2 "" H 1800 6950 50  0001 C CNN
+F 3 "" H 1800 6950 50  0001 C CNN
+	1    1800 6950
+	1    0    0    -1  
+$EndComp
+Text Label 1000 5600 0    50   ~ 0
+P1.4
+Text Label 1000 5700 0    50   ~ 0
+P1.5
+Text Label 1000 5800 0    50   ~ 0
+P1.6
+Text Label 1000 5900 0    50   ~ 0
+P1.7
+Text Label 1000 6000 0    50   ~ 0
+P2.0
+Text Label 1000 6100 0    50   ~ 0
+P2.1
+Text Label 1000 6200 0    50   ~ 0
+P2.2
+Text Label 1000 6300 0    50   ~ 0
+P2.3
+Text Label 1000 6400 0    50   ~ 0
+P2.4
+Text Label 1000 6500 0    50   ~ 0
+P2.5
+Text Label 1000 6600 0    50   ~ 0
+P2.6
+Text Label 1000 6700 0    50   ~ 0
+P2.7
+Wire Wire Line
+	1200 6800 800  6800
+Wire Wire Line
+	800  6800 800  6700
+$Comp
+L power:+5V #PWR0132
+U 1 1 5F5A52BA
+P 800 6700
+F 0 "#PWR0132" H 800 6550 50  0001 C CNN
+F 1 "+5V" H 800 6850 50  0000 C CNN
+F 2 "" H 800 6700 50  0001 C CNN
+F 3 "" H 800 6700 50  0001 C CNN
+	1    800  6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 6700 1000 6700
+Wire Wire Line
+	1000 6600 1200 6600
+Wire Wire Line
+	1200 6500 1000 6500
+Wire Wire Line
+	1000 6400 1200 6400
+Wire Wire Line
+	1200 6300 1000 6300
+Wire Wire Line
+	1000 6200 1200 6200
+Wire Wire Line
+	1200 6100 1000 6100
+Wire Wire Line
+	1000 6000 1200 6000
+Wire Wire Line
+	1200 5900 1000 5900
+Wire Wire Line
+	1000 5800 1200 5800
+Wire Wire Line
+	1200 5700 1000 5700
+Wire Wire Line
+	1000 5600 1200 5600
 $EndSCHEMATC
