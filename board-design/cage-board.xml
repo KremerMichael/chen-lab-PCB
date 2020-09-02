@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/kremerme/work/chen-lab-PCB/board-design/cage-board.sch</source>
+    <date>Wed 02 Sep 2020 02:34:32 PM EDT</date>
+    <tool>Eeschema 5.1.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>cage-board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U3">
+      <value>ERJ-UP8F6200V</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <datasheet>https://www.vishay.com/docs/83725/4n25.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.60</field>
+        <field name="MFN">4N25</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">4N25VS-ND</field>
+      </fields>
+      <libsource lib="Isolator" part="4N25" description="DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 2500V, DIP6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F459C62</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BD139</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BD135,137,139.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.46</field>
+        <field name="MFN">BD13916S</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">BD13916S-ND</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BD139" description="1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F45BDDA</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>390</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>http://www.koaspeer.com/pdfs/RK73B.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.10</field>
+        <field name="MFN">RK73B2ATTD391J</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">2019-RK73B2ATTD391JCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F45D628</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x02</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/691305540002.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">1.09</field>
+        <field name="MFN">691305540002</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">732-13739-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F45FEE6</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>http://www.koaspeer.com/pdfs/RK73B.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.10</field>
+        <field name="MFN">RK73B2ATTD203J</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">2019-RK73B2ATTD203JCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F468BF9</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>620</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>http://www.koaspeer.com/pdfs/RK73H.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.10</field>
+        <field name="MFN">RK73H2ATTD6200F</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">2019-RK73H2ATTD6200FCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F468C4F</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x17_Ribbon</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical_SMD</footprint>
+      <datasheet>https://multimedia.3m.com/mws/media/555044O/3m-interconnect-products-shortform-catalog.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">6.14</field>
+        <field name="MFN">N2534-6V0C-RB-WF</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">MSH34KCT-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x17_Odd_Even" description="Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F48A3E8</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>TB002-500-03BE</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-3_P5.08mm</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/tb002-500.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.88</field>
+        <field name="MFN">TB002-500-03BE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">102-6146-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4A75A1</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Jack-DC</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Item Cost">1.00</field>
+        <field name="MFN">CON-SOCJ-2155</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier P/N">992-CON-SOCJ-2155</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F48D1DC</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>http://www.koaspeer.com/pdfs/RK73B.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.10</field>
+        <field name="MFN">RK73B2ATTD203J</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">2019-RK73B2ATTD203JCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4B461B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>620</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>http://www.koaspeer.com/pdfs/RK73H.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.10</field>
+        <field name="MFN">RK73H2ATTD6200F</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">2019-RK73H2ATTD6200FCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4CD83E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>620</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>http://www.koaspeer.com/pdfs/RK73H.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.10</field>
+        <field name="MFN">RK73H2ATTD6200F</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">2019-RK73H2ATTD6200FCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4CDFA1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>620</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>http://www.koaspeer.com/pdfs/RK73H.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.10</field>
+        <field name="MFN">RK73H2ATTD6200F</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">2019-RK73H2ATTD6200FCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4CE766</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>390</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>http://www.koaspeer.com/pdfs/RK73B.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.10</field>
+        <field name="MFN">RK73B2ATTD391J</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">2019-RK73B2ATTD391JCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4D2032</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x02</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/691305540002.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">1.09</field>
+        <field name="MFN">691305540002</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">732-13739-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5588AE</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>74LS06</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS06</datasheet>
+      <fields>
+        <field name="Item Cost">0.99</field>
+        <field name="MFN">SN74LS06D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">296-3623-5-ND</field>
+      </fields>
+      <libsource lib="74xx" part="74LS06" description="Inverter Open Collect"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F59177B</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>TB002-500-03BE</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-3_P5.08mm</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/tb002-500.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.88</field>
+        <field name="MFN">TB002-500-03BE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">102-6146-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6D5080</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>TB002-500-03BE</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-3_P5.08mm</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/tb002-500.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.88</field>
+        <field name="MFN">TB002-500-03BE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">102-6146-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6D572B</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BD139</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BD135,137,139.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.46</field>
+        <field name="MFN">BD13916S</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">BD13916S-ND</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BD139" description="1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F70A743</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>73131-0240</value>
+      <footprint>chen-lab:BNC-Chen</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/731310240_sd.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">8.16</field>
+        <field name="MFN">0731310240</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">WM5378-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F89F8D4</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>73131-0240</value>
+      <footprint>chen-lab:BNC-Chen</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/731310240_sd.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">8.16</field>
+        <field name="MFN">0731310240</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">WM5378-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4D1E2F</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>73131-0240</value>
+      <footprint>chen-lab:BNC-Chen</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/731310240_sd.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">8.16</field>
+        <field name="MFN">0731310240</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">WM5378-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8A35AA</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>73131-0240</value>
+      <footprint>chen-lab:BNC-Chen</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/731310240_sd.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">8.16</field>
+        <field name="MFN">0731310240</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">WM5378-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8A3D14</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>73131-0240</value>
+      <footprint>chen-lab:BNC-Chen</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/731310240_sd.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">8.16</field>
+        <field name="MFN">0731310240</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">WM5378-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8D1023</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>73131-0240</value>
+      <footprint>chen-lab:BNC-Chen</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/731310240_sd.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">8.16</field>
+        <field name="MFN">0731310240</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">WM5378-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8D1BCF</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>73131-0240</value>
+      <footprint>chen-lab:BNC-Chen</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/731310240_sd.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">8.16</field>
+        <field name="MFN">0731310240</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">WM5378-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8D213D</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ERJ-UP8F6200V</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <datasheet>https://www.vishay.com/docs/83725/4n25.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.60</field>
+        <field name="MFN">4N25</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">4N25VS-ND</field>
+      </fields>
+      <libsource lib="Isolator" part="4N25" description="DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 2500V, DIP6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F95830B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/cs1dgjkm-1147483.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.35</field>
+        <field name="MFN">CS1M-E3/H</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier P/N">78-CS1M-E3/H</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F4ACD</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/427/cs1dgjkm-1147483.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.35</field>
+        <field name="MFN">CS1M-E3/H</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier P/N">78-CS1M-E3/H</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9FDD22</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1005_Y5V_SMD.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.10</field>
+        <field name="MFN">C0805C104Z5VACTU</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">399-1177-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA90C7D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.33</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">399-15436-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA91163</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.33</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">399-15436-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAAB01E</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_02x13_test_points</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/3M%20PDFs/961_2.54mm_StraightSolderTail_DS.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">1.96</field>
+        <field name="MFN">961226-6404-AR</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">3M9466-26-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x13_Odd_Even" description="Generic connector, double row, 02x13, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5151DB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74LS05">
+      <aliases>
+        <alias>74LS06</alias>
+        <alias>74LS06N</alias>
+      </aliases>
+      <description>Inverter Open Collect</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS05</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="openCol"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="openCol"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="openCol"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="openCol"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="openCol"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="openCol"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x13_Odd_Even">
+      <description>Generic connector, double row, 02x13, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x13_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x17_Odd_Even">
+      <description>Generic connector, double row, 02x17, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x17_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="4N25">
+      <aliases>
+        <alias>4N26</alias>
+        <alias>TIL111</alias>
+        <alias>4N27</alias>
+        <alias>4N28</alias>
+        <alias>4N35</alias>
+        <alias>4N36</alias>
+        <alias>4N37</alias>
+      </aliases>
+      <description>DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 2500V, DIP6</description>
+      <docs>https://www.vishay.com/docs/83725/4n25.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4N25</field>
+        <field name="Footprint">Package_DIP:DIP-6_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BD139">
+      <aliases>
+        <alias>BD135</alias>
+        <alias>BD137</alias>
+        <alias>BD233</alias>
+        <alias>BD235</alias>
+        <alias>BD237</alias>
+      </aliases>
+      <description>1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126</description>
+      <docs>http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf</docs>
+      <footprints>
+        <fp>TO?126*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BD139</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-126-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/home/kremerme/Downloads/kicad-symbols-master/74xx.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/home/kremerme/Downloads/kicad-symbols-master/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/home/kremerme/Downloads/kicad-symbols-master/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/home/kremerme/Downloads/kicad-symbols-master/Device.lib</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>/home/kremerme/Downloads/kicad-symbols-master/Isolator.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/home/kremerme/Downloads/kicad-symbols-master/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J11-Pad1)">
+      <node ref="U1" pin="8"/>
+      <node ref="J11" pin="1"/>
+    </net>
+    <net code="2" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="3" name="Net-(J6-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J12-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="5" name="+5V">
+      <node ref="R1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J9" pin="2"/>
+      <node ref="J2" pin="34"/>
+      <node ref="J2" pin="33"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="J15" pin="25"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D2-Pad2)">
+      <node ref="Q2" pin="1"/>
+      <node ref="J14" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad2)">
+      <node ref="J13" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="9" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="10" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="11" name="Net-(R2-Pad1)">
+      <node ref="U4" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="12" name="Net-(R6-Pad2)">
+      <node ref="U4" pin="4"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="13" name="Net-(R3-Pad1)">
+      <node ref="U3" pin="5"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="14" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="15" name="/P1.3">
+      <node ref="J2" pin="7"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="16" name="/P1.2">
+      <node ref="U1" pin="5"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="17" name="/P1.1">
+      <node ref="U1" pin="13"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="19" name="/P1.0">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="20" name="/P1.4">
+      <node ref="J2" pin="9"/>
+      <node ref="J15" pin="1"/>
+    </net>
+    <net code="21" name="/P1.5">
+      <node ref="J15" pin="3"/>
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="22" name="/P1.6">
+      <node ref="J2" pin="13"/>
+      <node ref="J15" pin="5"/>
+    </net>
+    <net code="23" name="/P1.7">
+      <node ref="J15" pin="7"/>
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="24" name="/P2.0">
+      <node ref="J15" pin="9"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="25" name="/P2.1">
+      <node ref="J2" pin="8"/>
+      <node ref="J15" pin="11"/>
+    </net>
+    <net code="26" name="/P2.2">
+      <node ref="J15" pin="13"/>
+      <node ref="J2" pin="12"/>
+    </net>
+    <net code="27" name="/P2.3">
+      <node ref="J15" pin="15"/>
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="28" name="/P2.4">
+      <node ref="J2" pin="20"/>
+      <node ref="J15" pin="17"/>
+    </net>
+    <net code="29" name="/P2.5">
+      <node ref="J2" pin="24"/>
+      <node ref="J15" pin="19"/>
+    </net>
+    <net code="30" name="/P2.6">
+      <node ref="J15" pin="21"/>
+      <node ref="J2" pin="28"/>
+    </net>
+    <net code="31" name="/P2.7">
+      <node ref="J2" pin="32"/>
+      <node ref="J15" pin="23"/>
+    </net>
+    <net code="32" name="/P0.7">
+      <node ref="J10" pin="1"/>
+      <node ref="J2" pin="31"/>
+    </net>
+    <net code="33" name="+24V">
+      <node ref="Q2" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="34" name="/P0.2">
+      <node ref="J9" pin="1"/>
+      <node ref="J2" pin="21"/>
+    </net>
+    <net code="35" name="/P0.6">
+      <node ref="J8" pin="1"/>
+      <node ref="J2" pin="29"/>
+    </net>
+    <net code="36" name="/P0.5">
+      <node ref="J4" pin="1"/>
+      <node ref="J2" pin="27"/>
+    </net>
+    <net code="37" name="/P0.4">
+      <node ref="J2" pin="25"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="38" name="/P0.3">
+      <node ref="J2" pin="23"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="39" name="/P0.1">
+      <node ref="J2" pin="19"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="40" name="/P0.0">
+      <node ref="J2" pin="17"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="41" name="Net-(Q1-Pad3)">
+      <node ref="R7" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="42" name="Net-(R5-Pad2)">
+      <node ref="U3" pin="4"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="43" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="44" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="45" name="Net-(Q2-Pad3)">
+      <node ref="R8" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="46" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="47" name="GND">
+      <node ref="J2" pin="6"/>
+      <node ref="J2" pin="26"/>
+      <node ref="J2" pin="30"/>
+      <node ref="J2" pin="22"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="18"/>
+      <node ref="J2" pin="14"/>
+      <node ref="J3" pin="3"/>
+      <node ref="U1" pin="7"/>
+      <node ref="J14" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J11" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J12" pin="2"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J9" pin="3"/>
+      <node ref="J10" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J7" pin="3"/>
+      <node ref="J2" pin="10"/>
+      <node ref="J15" pin="4"/>
+      <node ref="J15" pin="26"/>
+      <node ref="J15" pin="24"/>
+      <node ref="J15" pin="22"/>
+      <node ref="J15" pin="20"/>
+      <node ref="J15" pin="2"/>
+      <node ref="J15" pin="18"/>
+      <node ref="J15" pin="8"/>
+      <node ref="J13" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J15" pin="16"/>
+      <node ref="J15" pin="14"/>
+      <node ref="J15" pin="12"/>
+      <node ref="J15" pin="10"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J15" pin="6"/>
+    </net>
+  </nets>
+</export>

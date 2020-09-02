@@ -923,7 +923,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 3725 5350 50  0001 C CNN
 F 4 "Digi-Key" H 3725 5350 50  0001 C CNN "Supplier"
 F 5 "296-3623-5-ND" H 3725 5350 50  0001 C CNN "Supplier P/N"
 F 6 "SN74LS06D" H 3725 5350 50  0001 C CNN "MFN"
-F 7 "0.99" H 3725 5350 50  0001 C CNN "ItemCost"
+F 7 "0.99" H 3725 5350 50  0001 C CNN "Item Cost"
 	3    3725 5350
 	1    0    0    -1  
 $EndComp
@@ -974,17 +974,6 @@ F 7 "0.46" H 9650 3275 50  0001 C CNN "Item Cost"
 	1    9650 3275
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP5
-U 1 1 5F74AE16
-P 1075 4675
-F 0 "TP5" V 1100 4925 50  0000 C CNN
-F 1 "Pad" V 1025 4925 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 1275 4675 50  0001 C CNN
-F 3 "~" H 1275 4675 50  0001 C CNN
-	1    1075 4675
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2050 4475 2050 4925
 Connection ~ 2050 4475
@@ -999,8 +988,6 @@ F 3 "" H 2050 4925 50  0001 C CNN
 	1    2050 4925
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1075 4675 1250 4675
 $Comp
 L power:+5V #PWR0127
 U 1 1 5F7CDB4C
@@ -1021,7 +1008,6 @@ Wire Wire Line
 Wire Wire Line
 	1250 4825 1250 4675
 Connection ~ 1900 4825
-Connection ~ 1250 4675
 Wire Wire Line
 	1250 4675 1400 4675
 Wire Wire Line
