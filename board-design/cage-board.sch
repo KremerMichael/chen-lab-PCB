@@ -677,8 +677,6 @@ Wire Wire Line
 Wire Wire Line
 	1200 1400 1200 1500
 Connection ~ 1200 1500
-Text Notes 9325 1550 0    50   ~ 0
-check pins on npn
 $Comp
 L Device:R_US R7
 U 1 1 5F4B461B
@@ -976,8 +974,6 @@ F 7 "0.46" H 9650 3275 50  0001 C CNN "Item Cost"
 	1    9650 3275
 	1    0    0    -1  
 $EndComp
-Text Notes 9425 3250 0    50   ~ 0
-check pins on npn
 $Comp
 L Connector:TestPoint TP5
 U 1 1 5F74AE16

@@ -1299,10 +1299,10 @@ F 3 "" H 8225 4425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x13_Odd_Even J?
+L Connector_Generic:Conn_02x13_Odd_Even J15
 U 1 1 5F5151DB
 P 1400 6200
-F 0 "J?" H 1450 7017 50  0000 C CNN
+F 0 "J15" H 1450 7017 50  0000 C CNN
 F 1 "Conn_02x13_test_points" H 1450 6926 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical" H 1400 6200 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/3M%20PDFs/961_2.54mm_StraightSolderTail_DS.pdf" H 1400 6200 50  0001 C CNN
@@ -1378,10 +1378,10 @@ Connection ~ 1800 5700
 Wire Wire Line
 	1800 5700 1800 5800
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0131
 U 1 1 5F56C405
 P 1800 6950
-F 0 "#PWR?" H 1800 6700 50  0001 C CNN
+F 0 "#PWR0131" H 1800 6700 50  0001 C CNN
 F 1 "GND" H 1805 6777 50  0000 C CNN
 F 2 "" H 1800 6950 50  0001 C CNN
 F 3 "" H 1800 6950 50  0001 C CNN
@@ -1417,10 +1417,10 @@ Wire Wire Line
 Wire Wire Line
 	800  6800 800  6700
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0132
 U 1 1 5F5A52BA
 P 800 6700
-F 0 "#PWR?" H 800 6550 50  0001 C CNN
+F 0 "#PWR0132" H 800 6550 50  0001 C CNN
 F 1 "+5V" H 800 6850 50  0000 C CNN
 F 2 "" H 800 6700 50  0001 C CNN
 F 3 "" H 800 6700 50  0001 C CNN
