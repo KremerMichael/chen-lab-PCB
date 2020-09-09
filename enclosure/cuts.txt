@@ -1,0 +1,30 @@
+All units are inches
+
+Front Edge (5 BNC cuts): Front Facing, bottom-left is origin
+Circle: (1.013, 1.079) diameter = .5
+Circle: (2.013, 1.079) diameter = .5
+Circle: (3.013, 1.079) diameter = .5
+Circle: (4.013, 1.079) diameter = .5
+Circle: (5.013, 1.079) diameter = .5
+
+Back Edge (variaty of cuts): Front Facing, Bottom-right edge is origin
+* Board level Row:
+     Circle: (5.013, 1.079) diameter = .5
+     Circle: (5.013, 1.079) diameter = .5
+
+     Rectangle: bottom-right() top-left()
+     Rectangle: bottom-right() top-left()
+
+     Rectangle: bottom-right() top-left()
+
+* USB card Row:
+      Rectangle: bottom-right() top-left()
+      Rectangle: bottom-right() top-left()
+
+
+
+
+
+
+
+
