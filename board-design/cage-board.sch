@@ -140,8 +140,6 @@ Wire Wire Line
 	8050 1250 8050 1400
 Wire Wire Line
 	8050 1400 8200 1400
-Wire Wire Line
-	7875 1600 8200 1600
 $Comp
 L power:+5V #PWR0104
 U 1 1 5F466044
@@ -153,8 +151,6 @@ F 3 "" H 8050 950 50  0001 C CNN
 	1    8050 950 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7275 1600 6850 1600
 $Comp
 L power:+24V #PWR0105
 U 1 1 5F46799E
@@ -280,8 +276,6 @@ Wire Wire Line
 	8050 2925 8050 3075
 Wire Wire Line
 	8050 3075 8200 3075
-Wire Wire Line
-	7875 3275 8200 3275
 $Comp
 L power:+5V #PWR0110
 U 1 1 5F468C5C
@@ -293,8 +287,6 @@ F 3 "" H 8050 2625 50  0001 C CNN
 	1    8050 2625
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7275 3275 6850 3275
 Wire Wire Line
 	1400 3075 1050 3075
 Text Label 1050 3075 0    50   ~ 0
@@ -620,33 +612,22 @@ P1.0
 Text Label 6850 3275 0    50   ~ 0
 P1.1
 Wire Wire Line
-	3425 5350 3250 5350
+	3125 5675 2950 5675
 Wire Wire Line
-	4925 5375 4750 5375
-Text Label 3250 5350 0    50   ~ 0
+	4900 5675 4725 5675
+Text Label 2950 5675 0    50   ~ 0
 P1.2
-Text Label 4750 5375 0    50   ~ 0
+Text Label 4725 5675 0    50   ~ 0
 P1.3
-$Comp
-L power:GND #PWR0119
-U 1 1 5F50964B
-P 5725 5575
-F 0 "#PWR0119" H 5725 5325 50  0001 C CNN
-F 1 "GND" H 5730 5402 50  0000 C CNN
-F 2 "" H 5725 5575 50  0001 C CNN
-F 3 "" H 5725 5575 50  0001 C CNN
-	1    5725 5575
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0120
 U 1 1 5F50E1EA
-P 4225 5550
-F 0 "#PWR0120" H 4225 5300 50  0001 C CNN
-F 1 "GND" H 4230 5377 50  0000 C CNN
-F 2 "" H 4225 5550 50  0001 C CNN
-F 3 "" H 4225 5550 50  0001 C CNN
-	1    4225 5550
+P 4200 6425
+F 0 "#PWR0120" H 4200 6175 50  0001 C CNN
+F 1 "GND" H 4205 6252 50  0000 C CNN
+F 2 "" H 4200 6425 50  0001 C CNN
+F 3 "" H 4200 6425 50  0001 C CNN
+	1    4200 6425
 	1    0    0    -1  
 $EndComp
 Text Notes 3600 4975 0    50   ~ 0
@@ -784,51 +765,6 @@ F 7 "0.99" H 5275 3575 50  0001 C CNN "Item Cost"
 $EndComp
 $Comp
 L 74xx:74LS06 U1
-U 4 1 5F593B74
-P 5225 5375
-F 0 "U1" H 5225 5692 50  0000 C CNN
-F 1 "74LS06" H 5225 5601 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5225 5375 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 5225 5375 50  0001 C CNN
-F 4 "Digi-Key" H 5225 5375 50  0001 C CNN "Supplier"
-F 5 "296-3623-5-ND" H 5225 5375 50  0001 C CNN "Supplier P/N"
-F 6 "SN74LS06D" H 5225 5375 50  0001 C CNN "MFN"
-F 7 "0.99" H 5225 5375 50  0001 C CNN "Item Cost"
-	4    5225 5375
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS06 U1
-U 5 1 5F596A31
-P 7575 1600
-F 0 "U1" H 7575 1917 50  0000 C CNN
-F 1 "74LS06" H 7575 1826 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7575 1600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 7575 1600 50  0001 C CNN
-F 4 "Digi-Key" H 7575 1600 50  0001 C CNN "Supplier"
-F 5 "296-3623-5-ND" H 7575 1600 50  0001 C CNN "Supplier P/N"
-F 6 "SN74LS06D" H 7575 1600 50  0001 C CNN "MFN"
-F 7 "0.99" H 7575 1600 50  0001 C CNN "Item Cost"
-	5    7575 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS06 U1
-U 6 1 5F597CC2
-P 7575 3275
-F 0 "U1" H 7575 3592 50  0000 C CNN
-F 1 "74LS06" H 7575 3501 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7575 3275 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 7575 3275 50  0001 C CNN
-F 4 "Digi-Key" H 7575 3275 50  0001 C CNN "Supplier"
-F 5 "296-3623-5-ND" H 7575 3275 50  0001 C CNN "Supplier P/N"
-F 6 "SN74LS06D" H 7575 3275 50  0001 C CNN "MFN"
-F 7 "0.99" H 7575 3275 50  0001 C CNN "Item Cost"
-	6    7575 3275
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS06 U1
 U 7 1 5F59931E
 P 6900 4375
 F 0 "U1" H 7130 4421 50  0000 L CNN
@@ -910,21 +846,6 @@ F 1 "+5V" H 6915 3848 50  0000 C CNN
 F 2 "" H 6900 3675 50  0001 C CNN
 F 3 "" H 6900 3675 50  0001 C CNN
 	1    6900 3675
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS06 U1
-U 3 1 5F5929C3
-P 3725 5350
-F 0 "U1" H 3725 5667 50  0000 C CNN
-F 1 "74LS06" H 3725 5576 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3725 5350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 3725 5350 50  0001 C CNN
-F 4 "Digi-Key" H 3725 5350 50  0001 C CNN "Supplier"
-F 5 "296-3623-5-ND" H 3725 5350 50  0001 C CNN "Supplier P/N"
-F 6 "SN74LS06D" H 3725 5350 50  0001 C CNN "MFN"
-F 7 "0.99" H 3725 5350 50  0001 C CNN "Item Cost"
-	3    3725 5350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1045,31 +966,31 @@ $EndComp
 $Comp
 L Connector:Conn_Coaxial J5
 U 1 1 5F8A35AA
-P 4225 5350
-F 0 "J5" H 4325 5350 50  0000 L CNN
-F 1 "73131-0240" H 4125 5475 50  0000 L CNN
-F 2 "chen-lab:BNC-Chen" H 4225 5350 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/731310240_sd.pdf" H 4225 5350 50  0001 C CNN
-F 4 "Digi-Key" H 4225 5350 50  0001 C CNN "Supplier"
-F 5 "WM5378-ND" H 4225 5350 50  0001 C CNN "Supplier P/N"
-F 6 "0731310240" H 4225 5350 50  0001 C CNN "MFN"
-F 7 "8.16" H 4225 5350 50  0001 C CNN "Item Cost"
-	1    4225 5350
+P 4200 6025
+F 0 "J5" H 4300 6025 50  0000 L CNN
+F 1 "73131-0240" H 4100 6150 50  0000 L CNN
+F 2 "chen-lab:BNC-Chen" H 4200 6025 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/731310240_sd.pdf" H 4200 6025 50  0001 C CNN
+F 4 "Digi-Key" H 4200 6025 50  0001 C CNN "Supplier"
+F 5 "WM5378-ND" H 4200 6025 50  0001 C CNN "Supplier P/N"
+F 6 "0731310240" H 4200 6025 50  0001 C CNN "MFN"
+F 7 "8.16" H 4200 6025 50  0001 C CNN "Item Cost"
+	1    4200 6025
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J11
 U 1 1 5F8A3D14
-P 5725 5375
-F 0 "J11" H 5825 5375 50  0000 L CNN
-F 1 "73131-0240" H 5625 5500 50  0000 L CNN
-F 2 "chen-lab:BNC-Chen" H 5725 5375 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/731310240_sd.pdf" H 5725 5375 50  0001 C CNN
-F 4 "Digi-Key" H 5725 5375 50  0001 C CNN "Supplier"
-F 5 "WM5378-ND" H 5725 5375 50  0001 C CNN "Supplier P/N"
-F 6 "0731310240" H 5725 5375 50  0001 C CNN "MFN"
-F 7 "8.16" H 5725 5375 50  0001 C CNN "Item Cost"
-	1    5725 5375
+P 6000 5975
+F 0 "J11" H 6100 5975 50  0000 L CNN
+F 1 "73131-0240" H 5900 6100 50  0000 L CNN
+F 2 "chen-lab:BNC-Chen" H 6000 5975 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/731310240_sd.pdf" H 6000 5975 50  0001 C CNN
+F 4 "Digi-Key" H 6000 5975 50  0001 C CNN "Supplier"
+F 5 "WM5378-ND" H 6000 5975 50  0001 C CNN "Supplier P/N"
+F 6 "0731310240" H 6000 5975 50  0001 C CNN "MFN"
+F 7 "8.16" H 6000 5975 50  0001 C CNN "Item Cost"
+	1    6000 5975
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1433,4 +1354,141 @@ Wire Wire Line
 	1200 5700 1000 5700
 Wire Wire Line
 	1000 5600 1200 5600
+Wire Wire Line
+	6850 1600 8200 1600
+Wire Wire Line
+	6850 3275 8200 3275
+Text Notes 7100 7050 0    100  ~ 0
+Chen Lab cage board
+Text Notes 7100 6725 0    100  ~ 0
+Boston University Electronics Design Facility
+Text Notes 10600 7650 0    100  ~ 0
+B
+Text Notes 6975 6375 0    100  ~ 0
+Rev B changes:\nOmit inverter on air solenoid drive\nAdd drive circuit on water solenoids\nAdd DC/DC for 5V and some LEDs\nReplace 74LS06 with 74LS04
+$Comp
+L Transistor_BJT:2N3906 Q?
+U 1 1 5FC9FE6F
+P 3625 5675
+F 0 "Q?" H 3815 5629 50  0000 L CNN
+F 1 "2N3906" H 3815 5720 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3825 5600 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF" H 3625 5675 50  0001 L CNN
+	1    3625 5675
+	1    0    0    1   
+$EndComp
+$Comp
+L Diode:1N4007 D?
+U 1 1 5FCAE779
+P 3725 6275
+F 0 "D?" V 3679 6355 50  0000 L CNN
+F 1 "1N4007" V 3770 6355 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3725 6100 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3725 6275 50  0001 C CNN
+	1    3725 6275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3725 6125 3725 6025
+Wire Wire Line
+	3725 6025 4000 6025
+Wire Wire Line
+	3725 6025 3725 5875
+Connection ~ 3725 6025
+$Comp
+L power:+5V #PWR?
+U 1 1 5FCC3638
+P 3725 5475
+F 0 "#PWR?" H 3725 5325 50  0001 C CNN
+F 1 "+5V" H 3740 5648 50  0000 C CNN
+F 2 "" H 3725 5475 50  0001 C CNN
+F 3 "" H 3725 5475 50  0001 C CNN
+	1    3725 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FCC447B
+P 3275 5675
+F 0 "R?" V 3070 5675 50  0000 C CNN
+F 1 "R_US" V 3161 5675 50  0000 C CNN
+F 2 "" V 3315 5665 50  0001 C CNN
+F 3 "~" H 3275 5675 50  0001 C CNN
+	1    3275 5675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3725 6425 4200 6425
+Wire Wire Line
+	4200 6225 4200 6425
+Connection ~ 4200 6425
+$Comp
+L Transistor_BJT:2N3906 Q?
+U 1 1 5FCF4B61
+P 5400 5675
+F 0 "Q?" H 5590 5629 50  0000 L CNN
+F 1 "2N3906" H 5590 5720 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5600 5600 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF" H 5400 5675 50  0001 L CNN
+	1    5400 5675
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5FCF51C3
+P 5050 5675
+F 0 "R?" V 4845 5675 50  0000 C CNN
+F 1 "R_US" V 4936 5675 50  0000 C CNN
+F 2 "" V 5090 5665 50  0001 C CNN
+F 3 "~" H 5050 5675 50  0001 C CNN
+	1    5050 5675
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4007 D?
+U 1 1 5FD124D8
+P 5500 6175
+F 0 "D?" V 5454 6255 50  0000 L CNN
+F 1 "1N4007" V 5545 6255 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5500 6000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5500 6175 50  0001 C CNN
+	1    5500 6175
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD12F61
+P 6000 6450
+F 0 "#PWR?" H 6000 6200 50  0001 C CNN
+F 1 "GND" H 6005 6277 50  0000 C CNN
+F 2 "" H 6000 6450 50  0001 C CNN
+F 3 "" H 6000 6450 50  0001 C CNN
+	1    6000 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 6450 6000 6325
+Wire Wire Line
+	5500 6325 6000 6325
+Connection ~ 6000 6325
+Wire Wire Line
+	6000 6325 6000 6175
+Wire Wire Line
+	5500 5875 5500 5975
+Wire Wire Line
+	5800 5975 5500 5975
+Connection ~ 5500 5975
+Wire Wire Line
+	5500 5975 5500 6025
+$Comp
+L power:+5V #PWR?
+U 1 1 5FD4359B
+P 5500 5475
+F 0 "#PWR?" H 5500 5325 50  0001 C CNN
+F 1 "+5V" H 5515 5648 50  0000 C CNN
+F 2 "" H 5500 5475 50  0001 C CNN
+F 3 "" H 5500 5475 50  0001 C CNN
+	1    5500 5475
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
