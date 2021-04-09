@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/kremerme/edf/chen-lab-PCB/board-design/cage-board.sch</source>
-    <date>Tue 05 Jan 2021 01:01:26 PM EST</date>
-    <tool>Eeschema 5.1.5+dfsg1-2build2</tool>
+    <source>/Users/kremerme/edf/chen-lab-PCB/board-design/cage-board.sch</source>
+    <date>Friday, April 09, 2021 at 12:16:31 PM</date>
+    <tool>Eeschema (5.1.9-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -271,20 +271,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6D572B</tstamp>
     </comp>
-    <comp ref="Q2">
-      <value>BD139</value>
-      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
-      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BD135,137,139.pdf</datasheet>
-      <fields>
-        <field name="Item Cost">0.46</field>
-        <field name="MFN">BD13916S</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier P/N">BD13916S-ND</field>
-      </fields>
-      <libsource lib="Transistor_BJT" part="BD139" description="1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F70A743</tstamp>
-    </comp>
     <comp ref="J12">
       <value>73131-0240</value>
       <footprint>chen-lab:BNC-Chen</footprint>
@@ -397,34 +383,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F95830B</tstamp>
     </comp>
-    <comp ref="D2">
-      <value>D_Small</value>
-      <footprint>Diode_SMD:D_SMA</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/427/cs1dgjkm-1147483.pdf</datasheet>
-      <fields>
-        <field name="Item Cost">0.35</field>
-        <field name="MFN">CS1M-E3/H</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier P/N">78-CS1M-E3/H</field>
-      </fields>
-      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F9F4ACD</tstamp>
-    </comp>
-    <comp ref="D1">
-      <value>D_Small</value>
-      <footprint>Diode_SMD:D_SMA</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/427/cs1dgjkm-1147483.pdf</datasheet>
-      <fields>
-        <field name="Item Cost">0.35</field>
-        <field name="MFN">CS1M-E3/H</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier P/N">78-CS1M-E3/H</field>
-      </fields>
-      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F9FDD22</tstamp>
-    </comp>
     <comp ref="C2">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
@@ -510,9 +468,15 @@
       <tstamp>5FCAE779</tstamp>
     </comp>
     <comp ref="R10">
-      <value>R_US</value>
+      <value>1.5k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.koaspeer.com/pdfs/RK73B.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.10</field>
+        <field name="MFN">RK73B2ATTD152J</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">2019-RK73B2ATTD152JCT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FCC447B</tstamp>
@@ -532,9 +496,15 @@
       <tstamp>5FCF4B61</tstamp>
     </comp>
     <comp ref="R12">
-      <value>R_US</value>
+      <value>1.5k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://www.koaspeer.com/pdfs/RK73B.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.10</field>
+        <field name="MFN">RK73B2ATTD152J</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">2019-RK73B2ATTD152JCT-ND</field>
+      </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FCF51C3</tstamp>
@@ -596,6 +566,20 @@
       <tstamp>5FC8D0CD</tstamp>
     </comp>
     <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.koaspeer.com/pdfs/RK73B.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.10</field>
+        <field name="MFN">RK73B2ATTD103J</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">2019-RK73B2ATTD103JCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCD19C9</tstamp>
+    </comp>
+    <comp ref="R16">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://www.koaspeer.com/pdfs/RK73B.pdf</datasheet>
@@ -604,20 +588,6 @@
         <field name="MFN">RK73B2ATTD102J</field>
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier P/N">2019-RK73B2ATTD102JCT-ND</field>
-      </fields>
-      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FCD19C9</tstamp>
-    </comp>
-    <comp ref="R16">
-      <value>200</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
-      <datasheet>https://www.koaspeer.com/pdfs/RK73B.pdf</datasheet>
-      <fields>
-        <field name="Item Cost">0.10</field>
-        <field name="MFN">RK73B2ATTD201J</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier P/N">2019-RK73B2ATTD201JCT-ND</field>
       </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -652,14 +622,14 @@
       <tstamp>5FCD3534</tstamp>
     </comp>
     <comp ref="R13">
-      <value>200</value>
+      <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://www.koaspeer.com/pdfs/RK73B.pdf</datasheet>
       <fields>
         <field name="Item Cost">0.10</field>
-        <field name="MFN">RK73B2ATTD201J</field>
+        <field name="MFN">RK73B2ATTD102J</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier P/N">2019-RK73B2ATTD201JCT-ND</field>
+        <field name="Supplier P/N">2019-RK73B2ATTD102JCT-ND</field>
       </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -680,14 +650,14 @@
       <tstamp>5FD3DA0F</tstamp>
     </comp>
     <comp ref="R14">
-      <value>200</value>
+      <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://www.koaspeer.com/pdfs/RK73B.pdf</datasheet>
       <fields>
         <field name="Item Cost">0.10</field>
-        <field name="MFN">RK73B2ATTD201J</field>
+        <field name="MFN">RK73B2ATTD102J</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier P/N">2019-RK73B2ATTD201JCT-ND</field>
+        <field name="Supplier P/N">2019-RK73B2ATTD102JCT-ND</field>
       </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -708,14 +678,14 @@
       <tstamp>5FD7150B</tstamp>
     </comp>
     <comp ref="R9">
-      <value>200</value>
+      <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://www.koaspeer.com/pdfs/RK73B.pdf</datasheet>
       <fields>
         <field name="Item Cost">0.10</field>
-        <field name="MFN">RK73B2ATTD201J</field>
+        <field name="MFN">RK73B2ATTD102J</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier P/N">2019-RK73B2ATTD201JCT-ND</field>
+        <field name="Supplier P/N">2019-RK73B2ATTD102JCT-ND</field>
       </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -736,14 +706,14 @@
       <tstamp>5FDB8E55</tstamp>
     </comp>
     <comp ref="R11">
-      <value>200</value>
+      <value>1k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <datasheet>https://www.koaspeer.com/pdfs/RK73B.pdf</datasheet>
       <fields>
         <field name="Item Cost">0.10</field>
-        <field name="MFN">RK73B2ATTD201J</field>
+        <field name="MFN">RK73B2ATTD102J</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier P/N">2019-RK73B2ATTD201JCT-ND</field>
+        <field name="Supplier P/N">2019-RK73B2ATTD102JCT-ND</field>
       </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -762,6 +732,90 @@
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FE087B4</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>TB002-500-03BE</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-3_P5.08mm</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/tb002-500.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.88</field>
+        <field name="MFN">TB002-500-03BE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">102-6146-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606D873C</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>TB002-500-03BE</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-3_P5.08mm</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/tb002-500.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.88</field>
+        <field name="MFN">TB002-500-03BE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">102-6146-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6074983C</tstamp>
+    </comp>
+    <comp ref="J18">
+      <value>TB002-500-03BE</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-3_P5.08mm</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/tb002-500.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.88</field>
+        <field name="MFN">TB002-500-03BE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">102-6146-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6075AF1E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.31</field>
+        <field name="MFN">XLUR34D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">1497-1491-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E2A6B6</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.31</field>
+        <field name="MFN">XLUR34D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">1497-1491-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E65E7F</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BD139</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BD135,137,139.pdf</datasheet>
+      <fields>
+        <field name="Item Cost">0.46</field>
+        <field name="MFN">BD13916S</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier P/N">BD13916S-ND</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BD139" description="1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F70A743</tstamp>
     </comp>
   </components>
   <libparts>
@@ -978,24 +1032,6 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="D_Small">
-      <description>Diode, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Small</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="LED">
       <description>Light emitting diode</description>
       <docs>~</docs>
@@ -1113,7 +1149,7 @@
         <alias>2N3905</alias>
       </aliases>
       <description>-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92</description>
-      <docs>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</docs>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</docs>
       <footprints>
         <fp>TO?92*</fp>
       </footprints>
@@ -1155,341 +1191,350 @@
   </libparts>
   <libraries>
     <library logical="74xx">
-      <uri>/usr/share/kicad/library/74xx.lib</uri>
+      <uri>/Library/Application Support/kicad/library/74xx.lib</uri>
     </library>
     <library logical="Connector">
-      <uri>/usr/share/kicad/library/Connector.lib</uri>
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
     </library>
     <library logical="Device">
-      <uri>/usr/share/kicad/library/Device.lib</uri>
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
     </library>
     <library logical="Diode">
-      <uri>/usr/share/kicad/library/Diode.lib</uri>
+      <uri>/Library/Application Support/kicad/library/Diode.lib</uri>
     </library>
     <library logical="Isolator">
-      <uri>/usr/share/kicad/library/Isolator.lib</uri>
+      <uri>/Library/Application Support/kicad/library/Isolator.lib</uri>
     </library>
     <library logical="Regulator_Linear">
-      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+      <uri>/Library/Application Support/kicad/library/Regulator_Linear.lib</uri>
     </library>
     <library logical="Transistor_BJT">
-      <uri>/usr/share/kicad/library/Transistor_BJT.lib</uri>
+      <uri>/Library/Application Support/kicad/library/Transistor_BJT.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/P1.7">
-      <node ref="J15" pin="7"/>
-      <node ref="J2" pin="15"/>
+    <net code="1" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
     </net>
-    <net code="2" name="/P2.0">
-      <node ref="J15" pin="9"/>
-      <node ref="J2" pin="4"/>
+    <net code="2" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U3" pin="5"/>
     </net>
-    <net code="3" name="GND">
-      <node ref="LED6" pin="1"/>
-      <node ref="J2" pin="6"/>
-      <node ref="J2" pin="30"/>
-      <node ref="J2" pin="10"/>
-      <node ref="J4" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C4" pin="2"/>
+    <net code="3" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad2)">
+      <node ref="Q1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J13" pin="1"/>
+    </net>
+    <net code="5" name="Net-(R5-Pad2)">
+      <node ref="U3" pin="4"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="6" name="Net-(Q1-Pad3)">
+      <node ref="R7" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="7" name="GND">
       <node ref="J13" pin="2"/>
-      <node ref="J2" pin="2"/>
-      <node ref="J2" pin="26"/>
-      <node ref="J2" pin="22"/>
-      <node ref="J2" pin="18"/>
-      <node ref="J2" pin="14"/>
+      <node ref="J18" pin="2"/>
+      <node ref="J17" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="J16" pin="2"/>
       <node ref="U1" pin="13"/>
       <node ref="U1" pin="11"/>
       <node ref="U1" pin="9"/>
       <node ref="U1" pin="5"/>
+      <node ref="LED6" pin="1"/>
       <node ref="LED5" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
       <node ref="U2" pin="2"/>
-      <node ref="D4" pin="2"/>
+      <node ref="J2" pin="10"/>
+      <node ref="J2" pin="14"/>
       <node ref="D6" pin="2"/>
+      <node ref="J2" pin="18"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="22"/>
+      <node ref="D4" pin="2"/>
+      <node ref="J2" pin="26"/>
+      <node ref="J2" pin="30"/>
+      <node ref="J2" pin="6"/>
       <node ref="J3" pin="3"/>
-      <node ref="J14" pin="2"/>
+      <node ref="J15" pin="8"/>
+      <node ref="J15" pin="6"/>
+      <node ref="J15" pin="4"/>
+      <node ref="J15" pin="26"/>
+      <node ref="J15" pin="24"/>
+      <node ref="J15" pin="22"/>
+      <node ref="J15" pin="20"/>
+      <node ref="J15" pin="2"/>
+      <node ref="J15" pin="18"/>
+      <node ref="J15" pin="16"/>
+      <node ref="J15" pin="12"/>
+      <node ref="J15" pin="10"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="2"/>
       <node ref="J1" pin="3"/>
       <node ref="R7" pin="2"/>
-      <node ref="U1" pin="7"/>
-      <node ref="R8" pin="1"/>
-      <node ref="J9" pin="3"/>
-      <node ref="J7" pin="3"/>
+      <node ref="J10" pin="2"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J15" pin="14"/>
+      <node ref="J4" pin="2"/>
       <node ref="J11" pin="2"/>
       <node ref="J5" pin="2"/>
       <node ref="J6" pin="2"/>
       <node ref="J12" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="C1" pin="1"/>
-      <node ref="J15" pin="6"/>
-      <node ref="C2" pin="2"/>
-      <node ref="J8" pin="2"/>
-      <node ref="J10" pin="2"/>
-      <node ref="J15" pin="14"/>
-      <node ref="J15" pin="16"/>
-      <node ref="J15" pin="18"/>
-      <node ref="J15" pin="2"/>
-      <node ref="J15" pin="20"/>
-      <node ref="J15" pin="22"/>
-      <node ref="J15" pin="24"/>
-      <node ref="J15" pin="26"/>
-      <node ref="J15" pin="4"/>
-      <node ref="J15" pin="8"/>
-      <node ref="J15" pin="10"/>
-      <node ref="C3" pin="2"/>
-      <node ref="J15" pin="12"/>
+      <node ref="J14" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="J9" pin="3"/>
+      <node ref="J7" pin="3"/>
     </net>
-    <net code="4" name="/P2.3">
-      <node ref="J2" pin="16"/>
-      <node ref="J15" pin="15"/>
+    <net code="8" name="Net-(R1-Pad1)">
+      <node ref="U3" pin="1"/>
+      <node ref="R1" pin="1"/>
     </net>
-    <net code="5" name="+5V">
+    <net code="9" name="+5V">
+      <node ref="J7" pin="2"/>
+      <node ref="J18" pin="1"/>
+      <node ref="J9" pin="2"/>
+      <node ref="U1" pin="14"/>
+      <node ref="J17" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J16" pin="1"/>
+      <node ref="R2" pin="2"/>
       <node ref="R11" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R16" pin="1"/>
       <node ref="C5" pin="1"/>
       <node ref="U2" pin="3"/>
-      <node ref="R16" pin="1"/>
-      <node ref="J3" pin="2"/>
-      <node ref="C2" pin="1"/>
-      <node ref="R14" pin="1"/>
-      <node ref="Q3" pin="1"/>
-      <node ref="R2" pin="2"/>
-      <node ref="C3" pin="1"/>
-      <node ref="J9" pin="2"/>
-      <node ref="J15" pin="25"/>
-      <node ref="J7" pin="2"/>
-      <node ref="R9" pin="1"/>
-      <node ref="R1" pin="2"/>
-      <node ref="R13" pin="1"/>
       <node ref="Q4" pin="1"/>
-      <node ref="U1" pin="14"/>
+      <node ref="J15" pin="25"/>
+      <node ref="Q3" pin="1"/>
     </net>
-    <net code="6" name="/P2.7">
-      <node ref="J2" pin="32"/>
-      <node ref="J15" pin="23"/>
+    <net code="10" name="/P1.0">
+      <node ref="J2" pin="1"/>
+      <node ref="LED4" pin="1"/>
+      <node ref="U3" pin="2"/>
     </net>
-    <net code="7" name="/P2.6">
-      <node ref="J2" pin="28"/>
-      <node ref="J15" pin="21"/>
+    <net code="11" name="/P1.1">
+      <node ref="U4" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="LED3" pin="1"/>
     </net>
-    <net code="8" name="/P2.5">
-      <node ref="J2" pin="24"/>
-      <node ref="J15" pin="19"/>
+    <net code="12" name="/P1.2">
+      <node ref="LED1" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="J2" pin="5"/>
     </net>
-    <net code="9" name="/P2.4">
-      <node ref="J2" pin="20"/>
-      <node ref="J15" pin="17"/>
-    </net>
-    <net code="10" name="/P2.2">
-      <node ref="J2" pin="12"/>
-      <node ref="J15" pin="13"/>
-    </net>
-    <net code="11" name="/P2.1">
-      <node ref="J2" pin="8"/>
-      <node ref="J15" pin="11"/>
-    </net>
-    <net code="12" name="/P1.6">
-      <node ref="J2" pin="13"/>
-      <node ref="J15" pin="5"/>
-    </net>
-    <net code="13" name="/P1.5">
-      <node ref="J15" pin="3"/>
-      <node ref="J2" pin="11"/>
+    <net code="13" name="/P1.3">
+      <node ref="LED2" pin="1"/>
+      <node ref="J2" pin="7"/>
+      <node ref="R12" pin="2"/>
     </net>
     <net code="14" name="/P1.4">
       <node ref="J15" pin="1"/>
       <node ref="J2" pin="9"/>
     </net>
-    <net code="15" name="Net-(R2-Pad1)">
-      <node ref="R2" pin="1"/>
-      <node ref="U4" pin="1"/>
+    <net code="15" name="/P1.5">
+      <node ref="J2" pin="11"/>
+      <node ref="J15" pin="3"/>
     </net>
-    <net code="16" name="Net-(U4-Pad3)">
-      <node ref="U4" pin="3"/>
+    <net code="16" name="/P1.6">
+      <node ref="J2" pin="13"/>
+      <node ref="J15" pin="5"/>
     </net>
-    <net code="17" name="Net-(R6-Pad2)">
-      <node ref="R6" pin="2"/>
-      <node ref="U4" pin="4"/>
-    </net>
-    <net code="18" name="Net-(U4-Pad6)">
-      <node ref="U4" pin="6"/>
-    </net>
-    <net code="19" name="Net-(U3-Pad6)">
-      <node ref="U3" pin="6"/>
-    </net>
-    <net code="20" name="Net-(LED3-Pad2)">
-      <node ref="R13" pin="2"/>
-      <node ref="LED3" pin="2"/>
-    </net>
-    <net code="21" name="Net-(U1-Pad6)">
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="22" name="Net-(LED5-Pad2)">
-      <node ref="LED5" pin="2"/>
-      <node ref="R15" pin="2"/>
-    </net>
-    <net code="23" name="Net-(LED6-Pad2)">
-      <node ref="R16" pin="2"/>
-      <node ref="LED6" pin="2"/>
-    </net>
-    <net code="24" name="Net-(U1-Pad8)">
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="25" name="Net-(U1-Pad10)">
-      <node ref="U1" pin="10"/>
-    </net>
-    <net code="26" name="Net-(U1-Pad12)">
-      <node ref="U1" pin="12"/>
-    </net>
-    <net code="27" name="Net-(LED2-Pad2)">
-      <node ref="LED2" pin="2"/>
-      <node ref="R11" pin="2"/>
-    </net>
-    <net code="28" name="Net-(LED1-Pad2)">
-      <node ref="LED1" pin="2"/>
-      <node ref="R9" pin="2"/>
-    </net>
-    <net code="29" name="Net-(J2-Pad33)">
-      <node ref="J2" pin="33"/>
-    </net>
-    <net code="30" name="Net-(J2-Pad34)">
-      <node ref="J2" pin="34"/>
-    </net>
-    <net code="31" name="Net-(LED4-Pad2)">
-      <node ref="R14" pin="2"/>
-      <node ref="LED4" pin="2"/>
-    </net>
-    <net code="32" name="+24V">
-      <node ref="U2" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="R15" pin="1"/>
-      <node ref="R4" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="J1" pin="1"/>
-    </net>
-    <net code="33" name="Net-(Q4-Pad2)">
-      <node ref="Q4" pin="2"/>
-      <node ref="R12" pin="1"/>
-    </net>
-    <net code="34" name="Net-(D6-Pad1)">
-      <node ref="Q4" pin="3"/>
-      <node ref="J11" pin="1"/>
-      <node ref="D6" pin="1"/>
-    </net>
-    <net code="35" name="Net-(Q3-Pad2)">
-      <node ref="Q3" pin="2"/>
-      <node ref="R10" pin="1"/>
-    </net>
-    <net code="36" name="Net-(D4-Pad1)">
-      <node ref="Q3" pin="3"/>
-      <node ref="D4" pin="1"/>
-      <node ref="J5" pin="1"/>
-    </net>
-    <net code="37" name="/P0.4">
-      <node ref="U1" pin="1"/>
-      <node ref="J2" pin="25"/>
-    </net>
-    <net code="38" name="/P0.0">
+    <net code="17" name="/P0.0">
       <node ref="J2" pin="17"/>
       <node ref="J3" pin="1"/>
     </net>
-    <net code="39" name="/P0.1">
+    <net code="18" name="/P0.1">
       <node ref="J7" pin="1"/>
       <node ref="J2" pin="19"/>
     </net>
-    <net code="40" name="/P0.2">
-      <node ref="J2" pin="21"/>
+    <net code="19" name="/P0.2">
       <node ref="J9" pin="1"/>
+      <node ref="J2" pin="21"/>
     </net>
-    <net code="41" name="/P0.3">
-      <node ref="J2" pin="23"/>
+    <net code="20" name="/P0.3">
       <node ref="U1" pin="3"/>
+      <node ref="J2" pin="23"/>
     </net>
-    <net code="42" name="/P0.5">
-      <node ref="J4" pin="1"/>
+    <net code="21" name="/P0.4">
+      <node ref="U1" pin="1"/>
+      <node ref="J2" pin="25"/>
+    </net>
+    <net code="22" name="/P0.5">
       <node ref="J2" pin="27"/>
+      <node ref="J4" pin="1"/>
     </net>
-    <net code="43" name="/P0.6">
-      <node ref="J8" pin="1"/>
+    <net code="23" name="/P0.6">
       <node ref="J2" pin="29"/>
+      <node ref="J8" pin="1"/>
     </net>
-    <net code="44" name="/P0.7">
-      <node ref="J10" pin="1"/>
+    <net code="24" name="/P0.7">
       <node ref="J2" pin="31"/>
+      <node ref="J10" pin="1"/>
     </net>
-    <net code="45" name="/P1.0">
-      <node ref="J2" pin="1"/>
-      <node ref="U3" pin="2"/>
-      <node ref="LED4" pin="1"/>
+    <net code="25" name="/P2.2">
+      <node ref="J2" pin="12"/>
+      <node ref="J15" pin="13"/>
+      <node ref="J18" pin="3"/>
     </net>
-    <net code="46" name="/P1.2">
-      <node ref="J2" pin="5"/>
-      <node ref="LED1" pin="1"/>
-      <node ref="R10" pin="2"/>
+    <net code="26" name="/P1.7">
+      <node ref="J2" pin="15"/>
+      <node ref="J15" pin="7"/>
     </net>
-    <net code="47" name="/P1.1">
-      <node ref="LED3" pin="1"/>
-      <node ref="U4" pin="2"/>
-      <node ref="J2" pin="3"/>
+    <net code="27" name="/P2.3">
+      <node ref="J2" pin="16"/>
+      <node ref="J15" pin="15"/>
     </net>
-    <net code="48" name="/P1.3">
-      <node ref="J2" pin="7"/>
-      <node ref="LED2" pin="1"/>
-      <node ref="R12" pin="2"/>
+    <net code="28" name="/P2.4">
+      <node ref="J15" pin="17"/>
+      <node ref="J2" pin="20"/>
     </net>
-    <net code="49" name="Net-(D1-Pad2)">
-      <node ref="J13" pin="1"/>
-      <node ref="Q1" pin="1"/>
-      <node ref="D1" pin="2"/>
+    <net code="29" name="/P2.5">
+      <node ref="J15" pin="19"/>
+      <node ref="J2" pin="24"/>
     </net>
-    <net code="50" name="Net-(R1-Pad1)">
-      <node ref="R1" pin="1"/>
-      <node ref="U3" pin="1"/>
+    <net code="30" name="/P2.6">
+      <node ref="J15" pin="21"/>
+      <node ref="J2" pin="28"/>
     </net>
-    <net code="51" name="Net-(U3-Pad3)">
-      <node ref="U3" pin="3"/>
+    <net code="31" name="/P2.7">
+      <node ref="J15" pin="23"/>
+      <node ref="J2" pin="32"/>
     </net>
-    <net code="52" name="Net-(R3-Pad1)">
-      <node ref="R3" pin="1"/>
-      <node ref="U3" pin="5"/>
+    <net code="32" name="Net-(J2-Pad33)">
+      <node ref="J2" pin="33"/>
     </net>
-    <net code="53" name="Net-(R5-Pad2)">
-      <node ref="U3" pin="4"/>
-      <node ref="R5" pin="2"/>
+    <net code="33" name="Net-(J2-Pad34)">
+      <node ref="J2" pin="34"/>
     </net>
-    <net code="54" name="Net-(Q1-Pad3)">
-      <node ref="R5" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="Q1" pin="3"/>
+    <net code="34" name="/P2.0">
+      <node ref="J16" pin="3"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J15" pin="9"/>
     </net>
-    <net code="55" name="Net-(D2-Pad2)">
-      <node ref="Q2" pin="1"/>
-      <node ref="J14" pin="1"/>
-      <node ref="D2" pin="2"/>
+    <net code="35" name="/P2.1">
+      <node ref="J2" pin="8"/>
+      <node ref="J17" pin="3"/>
+      <node ref="J15" pin="11"/>
     </net>
-    <net code="56" name="Net-(R4-Pad1)">
-      <node ref="U4" pin="5"/>
-      <node ref="R4" pin="1"/>
-    </net>
-    <net code="57" name="Net-(Q2-Pad3)">
-      <node ref="Q2" pin="3"/>
-      <node ref="R6" pin="1"/>
-      <node ref="R8" pin="2"/>
-    </net>
-    <net code="58" name="Net-(J12-Pad1)">
+    <net code="36" name="Net-(J12-Pad1)">
       <node ref="U1" pin="4"/>
       <node ref="J12" pin="1"/>
     </net>
-    <net code="59" name="Net-(J6-Pad1)">
-      <node ref="U1" pin="2"/>
+    <net code="37" name="Net-(J6-Pad1)">
       <node ref="J6" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="38" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="39" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="40" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="41" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="42" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="43" name="Net-(Q3-Pad2)">
+      <node ref="Q3" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="44" name="Net-(D4-Pad1)">
+      <node ref="Q3" pin="3"/>
+      <node ref="J5" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="45" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="46" name="Net-(D6-Pad1)">
+      <node ref="Q4" pin="3"/>
+      <node ref="D6" pin="1"/>
+      <node ref="J11" pin="1"/>
+    </net>
+    <net code="47" name="Net-(LED5-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="LED5" pin="2"/>
+    </net>
+    <net code="48" name="Net-(LED6-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="LED6" pin="2"/>
+    </net>
+    <net code="49" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="50" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="51" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="52" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="53" name="Net-(LED3-Pad2)">
+      <node ref="LED3" pin="2"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="54" name="Net-(LED4-Pad2)">
+      <node ref="LED4" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="55" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="56" name="Net-(LED2-Pad2)">
+      <node ref="LED2" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="57" name="+24V">
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="58" name="Net-(D2-Pad2)">
+      <node ref="Q2" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="J14" pin="1"/>
+    </net>
+    <net code="59" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R6" pin="1"/>
     </net>
   </nets>
 </export>
