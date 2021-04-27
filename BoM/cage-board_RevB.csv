@@ -14,7 +14,7 @@ Item,Qty,Reference(s),Value,LibPart,Item Cost,MFN,Supplier,Supplier P/N,Total Co
 6,1,J1,Jack-DC,Connector:Barrel_Jack_Switch,1.00,CON-SOCJ-2155,Mouser,992-CON-SOCJ-2155,1
 7,1,J2,Conn_02x17_Ribbon,Connector_Generic:Conn_02x17_Odd_Even,2.55,D2534-6002-AR,Digi-Key,MHC34E-ND,2.55
 8,6,"J3, J7, J9, J16, J17, J18",TB002-500-03BE,Connector:Conn_01x03_Female,0.88,TB002-500-03BE,Digi-Key,102-6146-ND,5.28
-9,7,"J4, J5, J6, J8, J10, J11, J12",73131-0240,Connector:Conn_Coaxial,8.16,731310240,Digi-Key,WM5378-ND,57.12
+9,7,"J4, J5, J6, J8, J10, J11, J12",BNC,Connector:Conn_Coaxial,1.77,731000105,Digi-Key,WM5524-ND,12.39
 10,2,"J13, J14",Conn_01x02,Connector_Generic:Conn_01x02,1.09,691305540002,Digi-Key,732-13739-ND,2.18
 11,1,J15,Conn_02x13_test_points,Connector_Generic:Conn_02x13_Odd_Even,1.96,961226-6404-AR,Digi-Key,3M9466-26-ND,1.96
 12,6,"LED1, LED2, LED3, LED4, LED5, LED6",LED,Device:LED,0.53,WP934CB/GD,Digi-Key,754-1297-ND,3.18
@@ -29,4 +29,4 @@ Item,Qty,Reference(s),Value,LibPart,Item Cost,MFN,Supplier,Supplier P/N,Total Co
 21,1,U1,74HC04,74xx:74LS06,0.73,SN74LS04N,Digi-Key,296-1629-5-ND,0.73
 22,1,U2,VX7805-500,Regulator_Linear:uA7805,2.78,VX7805-500,Digi-Key,102-4244-ND,2.78
 23,2,"U3, U4",4N25,Isolator:4N25,0.60,4N25,Digi-Key,4N25VS-ND,1.2
-,,,,,,,,Total Cost:,84.37
+,,,,,,,,Total Cost:,39.64

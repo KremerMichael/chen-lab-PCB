@@ -1544,7 +1544,7 @@ P 9900 5100
 F 0 "LED5" V 9939 4982 50  0000 R CNN
 F 1 "LED" V 9848 4982 50  0000 R CNN
 F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 9900 5100 50  0001 C CNN
-F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP1384AD-GD.pdf" H 9900 5100 50  0001 C CNN
+F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP934CB-GD.pdf" H 9900 5100 50  0001 C CNN
 F 4 "0.53" H 9900 5100 50  0001 C CNN "Item Cost"
 F 5 "WP1384AD/GD" H 9900 5100 50  0001 C CNN "MFN"
 F 6 "Digi-Key" H 9900 5100 50  0001 C CNN "Supplier"
@@ -1559,7 +1559,7 @@ P 10250 5100
 F 0 "LED6" V 10289 4982 50  0000 R CNN
 F 1 "LED" V 10198 4982 50  0000 R CNN
 F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 10250 5100 50  0001 C CNN
-F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP1384AD-GD.pdf" H 10250 5100 50  0001 C CNN
+F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP934CB-GD.pdf" H 10250 5100 50  0001 C CNN
 F 4 "0.53" H 10250 5100 50  0001 C CNN "Item Cost"
 F 5 "WP1384AD/GD" H 10250 5100 50  0001 C CNN "MFN"
 F 6 "Digi-Key" H 10250 5100 50  0001 C CNN "Supplier"
@@ -1721,7 +1721,7 @@ P 7400 2950
 F 0 "LED3" V 7439 2832 50  0000 R CNN
 F 1 "LED" V 7348 2832 50  0000 R CNN
 F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 7400 2950 50  0001 C CNN
-F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP1384AD-GD.pdf" H 7400 2950 50  0001 C CNN
+F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP934CB-GD.pdf" H 7400 2950 50  0001 C CNN
 F 4 "0.53" H 7400 2950 50  0001 C CNN "Item Cost"
 F 5 "WP1384AD/GD" H 7400 2950 50  0001 C CNN "MFN"
 F 6 "Digi-Key" H 7400 2950 50  0001 C CNN "Supplier"
@@ -1755,7 +1755,7 @@ P 7825 1300
 F 0 "LED4" V 7864 1182 50  0000 R CNN
 F 1 "LED" V 7773 1182 50  0000 R CNN
 F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 7825 1300 50  0001 C CNN
-F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP1384AD-GD.pdf" H 7825 1300 50  0001 C CNN
+F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP934CB-GD.pdf" H 7825 1300 50  0001 C CNN
 F 4 "0.53" H 7825 1300 50  0001 C CNN "Item Cost"
 F 5 "WP1384AD/GD" H 7825 1300 50  0001 C CNN "MFN"
 F 6 "Digi-Key" H 7825 1300 50  0001 C CNN "Supplier"
@@ -1814,7 +1814,7 @@ P 2825 6325
 F 0 "LED1" V 2864 6207 50  0000 R CNN
 F 1 "LED" V 2773 6207 50  0000 R CNN
 F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 2825 6325 50  0001 C CNN
-F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP1384AD-GD.pdf" H 2825 6325 50  0001 C CNN
+F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP934CB-GD.pdf" H 2825 6325 50  0001 C CNN
 F 4 "0.53" H 2825 6325 50  0001 C CNN "Item Cost"
 F 5 "WP1384AD/GD" H 2825 6325 50  0001 C CNN "MFN"
 F 6 "Digi-Key" H 2825 6325 50  0001 C CNN "Supplier"
@@ -1862,7 +1862,7 @@ P 4775 6325
 F 0 "LED2" V 4814 6207 50  0000 R CNN
 F 1 "LED" V 4723 6207 50  0000 R CNN
 F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 4775 6325 50  0001 C CNN
-F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP1384AD-GD.pdf" H 4775 6325 50  0001 C CNN
+F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP934CB-GD.pdf" H 4775 6325 50  0001 C CNN
 F 4 "0.53" H 4775 6325 50  0001 C CNN "Item Cost"
 F 5 "WP1384AD/GD" H 4775 6325 50  0001 C CNN "MFN"
 F 6 "Digi-Key" H 4775 6325 50  0001 C CNN "Supplier"
