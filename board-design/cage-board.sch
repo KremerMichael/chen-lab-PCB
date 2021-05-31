@@ -567,10 +567,6 @@ Text Label 7050 1550 0    50   ~ 0
 P1.0
 Text Label 7050 3200 0    50   ~ 0
 P1.1
-Wire Wire Line
-	2950 6725 2825 6725
-Wire Wire Line
-	4900 6725 4775 6725
 Text Label 2475 6725 0    50   ~ 0
 P1.2
 Text Label 4425 6725 0    50   ~ 0
@@ -1024,21 +1020,6 @@ Wire Wire Line
 Wire Wire Line
 	8450 4125 8450 4250
 Connection ~ 8450 4125
-$Comp
-L Device:C_Small C3
-U 1 1 5FAAB01E
-P 2525 2350
-F 0 "C3" H 2617 2396 50  0000 L CNN
-F 1 "1uF" H 2617 2305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2525 2350 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 2525 2350 50  0001 C CNN
-F 4 "Digi-Key" H 2525 2350 50  0001 C CNN "Supplier"
-F 5 "399-15436-1-ND" H 2525 2350 50  0001 C CNN "Supplier P/N"
-F 6 "0.33" H 2525 2350 50  0001 C CNN "Item Cost"
-F 7 "C0805C105K5PAC7800" H 2525 2350 50  0001 C CNN "MFN"
-	1    2525 2350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1225 1050 950  1050
 Connection ~ 1225 1050
@@ -1046,17 +1027,6 @@ Wire Wire Line
 	1225 1250 1225 1350
 Wire Wire Line
 	950  1250 1225 1250
-$Comp
-L power:GND #PWR0130
-U 1 1 5FACD816
-P 2525 2450
-F 0 "#PWR0130" H 2525 2200 50  0001 C CNN
-F 1 "GND" H 2530 2277 50  0000 C CNN
-F 2 "" H 2525 2450 50  0001 C CNN
-F 3 "" H 2525 2450 50  0001 C CNN
-	1    2525 2450
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_02x13_Odd_Even J15
 U 1 1 5F5151DB
@@ -1210,15 +1180,13 @@ Wire Wire Line
 	1200 5700 1000 5700
 Wire Wire Line
 	1000 5600 1200 5600
-Wire Wire Line
-	7050 1550 7825 1550
 Text Notes 7475 7525 0    100  ~ 0
 Chen Lab cage board
 Text Notes 7025 6775 0    100  ~ 0
 Boston University Electronics Design Facility
 Text Notes 10600 7650 0    100  ~ 0
 B
-Text Notes 6975 6375 0    75   ~ 0
+Text Notes 6700 6350 0    75   ~ 0
 Rev B changes:\nOmit inverter on air solenoid drive\nAdd drive circuit on water solenoids\nAdd DC/DC for 5V and some LEDs\nReplace 74LS06 with 74LS04
 $Comp
 L Transistor_BJT:2N3906 Q3
@@ -1369,240 +1337,8 @@ F 3 "" H 5500 6525 50  0001 C CNN
 	1    5500 6525
 	1    0    0    -1  
 $EndComp
-$Comp
-L Regulator_Linear:uA7805 U2
-U 1 1 5FC8BE94
-P 1450 2050
-F 0 "U2" H 1450 2292 50  0000 C CNN
-F 1 "VX7805-500" H 1450 2201 50  0000 C CNN
-F 2 "Package_SIP:SIP3_11.6x8.5mm" H 1475 1900 50  0001 L CIN
-F 3 "https://www.cui.com/product/resource/vx78-500.pdf" H 1450 2000 50  0001 C CNN
-F 4 "102-4244-ND" H 1450 2050 50  0001 C CNN "Supplier P/N"
-F 5 "VX7805-500" H 1450 2050 50  0001 C CNN "MFN"
-F 6 "Digi-Key" H 1450 2050 50  0001 C CNN "Supplier"
-F 7 "2.78" H 1450 2050 50  0001 C CNN "Item Cost"
-	1    1450 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C4
-U 1 1 5FC8CDE2
-P 925 2350
-F 0 "C4" H 1040 2396 50  0000 L CNN
-F 1 "10u 50V" H 1040 2305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" H 963 2200 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 925 2350 50  0001 C CNN
-F 4 "Digi-Key" H 925 2350 50  0001 C CNN "Supplier"
-F 5 "399-C1210C106K5PAC7210CT-ND" H 925 2350 50  0001 C CNN "Supplier P/N"
-F 6 "C1210C106K5PAC7210" H 925 2350 50  0001 C CNN "MFN"
-F 7 "0.94" H 925 2350 50  0001 C CNN "Item Cost"
-	1    925  2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C5
-U 1 1 5FC8D0CD
-P 1975 2325
-F 0 "C5" H 2090 2371 50  0000 L CNN
-F 1 "22u 10V" H 2090 2280 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2013 2175 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" H 1975 2325 50  0001 C CNN
-F 4 "Digi-Key" H 1975 2325 50  0001 C CNN "Supplier"
-F 5 "399-12069-1-ND" H 1975 2325 50  0001 C CNN "Supplier P/N"
-F 6 "C0805C226M8PAC7800" H 1975 2325 50  0001 C CNN "MFN"
-F 7 "0.51" H 1975 2325 50  0001 C CNN "Item Cost"
-	1    1975 2325
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+24V #PWR01
-U 1 1 5FC8D5C7
-P 925 2000
-F 0 "#PWR01" H 925 1850 50  0001 C CNN
-F 1 "+24V" H 940 2173 50  0000 C CNN
-F 2 "" H 925 2000 50  0001 C CNN
-F 3 "" H 925 2000 50  0001 C CNN
-	1    925  2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR04
-U 1 1 5FC8D9A4
-P 1975 1975
-F 0 "#PWR04" H 1975 1825 50  0001 C CNN
-F 1 "+5V" H 1975 2125 50  0000 C CNN
-F 2 "" H 1975 1975 50  0001 C CNN
-F 3 "" H 1975 1975 50  0001 C CNN
-	1    1975 1975
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1975 1975 1975 2050
-Wire Wire Line
-	1750 2050 1975 2050
-Connection ~ 1975 2050
-Wire Wire Line
-	1975 2050 1975 2175
-Wire Wire Line
-	1150 2050 925  2050
-Wire Wire Line
-	925  2050 925  2000
-Wire Wire Line
-	925  2050 925  2200
-Connection ~ 925  2050
-$Comp
-L power:GND #PWR02
-U 1 1 5FCB7BCE
-P 925 2500
-F 0 "#PWR02" H 925 2250 50  0001 C CNN
-F 1 "GND" H 825 2500 50  0000 C CNN
-F 2 "" H 925 2500 50  0001 C CNN
-F 3 "" H 925 2500 50  0001 C CNN
-	1    925  2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5FCB8051
-P 1975 2475
-F 0 "#PWR05" H 1975 2225 50  0001 C CNN
-F 1 "GND" H 1875 2475 50  0000 C CNN
-F 2 "" H 1975 2475 50  0001 C CNN
-F 3 "" H 1975 2475 50  0001 C CNN
-	1    1975 2475
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR03
-U 1 1 5FCB857D
-P 1450 2350
-F 0 "#PWR03" H 1450 2100 50  0001 C CNN
-F 1 "GND" H 1450 2200 50  0000 C CNN
-F 2 "" H 1450 2350 50  0001 C CNN
-F 3 "" H 1450 2350 50  0001 C CNN
-	1    1450 2350
-	1    0    0    -1  
-$EndComp
-Text Notes 1025 1700 0    50   ~ 0
-DC/DC converter for 5V
-$Comp
-L power:+24V #PWR015
-U 1 1 5FCD0700
-P 9900 4475
-F 0 "#PWR015" H 9900 4325 50  0001 C CNN
-F 1 "+24V" H 9915 4648 50  0000 C CNN
-F 2 "" H 9900 4475 50  0001 C CNN
-F 3 "" H 9900 4475 50  0001 C CNN
-	1    9900 4475
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR017
-U 1 1 5FCD0A74
-P 10250 4475
-F 0 "#PWR017" H 10250 4325 50  0001 C CNN
-F 1 "+5V" H 10265 4648 50  0000 C CNN
-F 2 "" H 10250 4475 50  0001 C CNN
-F 3 "" H 10250 4475 50  0001 C CNN
-	1    10250 4475
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R15
-U 1 1 5FCD19C9
-P 9900 4725
-F 0 "R15" H 9968 4771 50  0000 L CNN
-F 1 "10k" H 9968 4680 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9940 4715 50  0001 C CNN
-F 3 "https://www.koaspeer.com/pdfs/RK73B.pdf" H 9900 4725 50  0001 C CNN
-F 4 "0.10" H 9900 4725 50  0001 C CNN "Item Cost"
-F 5 "RK73B2ATTD103J" H 9900 4725 50  0001 C CNN "MFN"
-F 6 "Digi-Key" H 9900 4725 50  0001 C CNN "Supplier"
-F 7 "2019-RK73B2ATTD103JCT-ND" H 9900 4725 50  0001 C CNN "Supplier P/N"
-	1    9900 4725
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R16
-U 1 1 5FCD1FF6
-P 10250 4725
-F 0 "R16" H 10318 4771 50  0000 L CNN
-F 1 "1k" H 10318 4680 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10290 4715 50  0001 C CNN
-F 3 "https://www.koaspeer.com/pdfs/RK73B.pdf" H 10250 4725 50  0001 C CNN
-F 4 "0.10" H 10250 4725 50  0001 C CNN "Item Cost"
-F 5 "RK73B2ATTD102J" H 10250 4725 50  0001 C CNN "MFN"
-F 6 "Digi-Key" H 10250 4725 50  0001 C CNN "Supplier"
-F 7 "2019-RK73B2ATTD102JCT-ND" H 10250 4725 50  0001 C CNN "Supplier P/N"
-	1    10250 4725
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED LED5
-U 1 1 5FCD2E2C
-P 9900 5100
-F 0 "LED5" V 9939 4982 50  0000 R CNN
-F 1 "LED" V 9848 4982 50  0000 R CNN
-F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 9900 5100 50  0001 C CNN
-F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP934CB-GD.pdf" H 9900 5100 50  0001 C CNN
-F 4 "0.53" H 9900 5100 50  0001 C CNN "Item Cost"
-F 5 "WP1384AD/GD" H 9900 5100 50  0001 C CNN "MFN"
-F 6 "Digi-Key" H 9900 5100 50  0001 C CNN "Supplier"
-F 7 "754-1711-ND" H 9900 5100 50  0001 C CNN "Supplier P/N"
-	1    9900 5100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED LED6
-U 1 1 5FCD3534
-P 10250 5100
-F 0 "LED6" V 10289 4982 50  0000 R CNN
-F 1 "LED" V 10198 4982 50  0000 R CNN
-F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 10250 5100 50  0001 C CNN
-F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP934CB-GD.pdf" H 10250 5100 50  0001 C CNN
-F 4 "0.53" H 10250 5100 50  0001 C CNN "Item Cost"
-F 5 "WP1384AD/GD" H 10250 5100 50  0001 C CNN "MFN"
-F 6 "Digi-Key" H 10250 5100 50  0001 C CNN "Supplier"
-F 7 "754-1711-ND" H 10250 5100 50  0001 C CNN "Supplier P/N"
-	1    10250 5100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9900 4475 9900 4575
-Wire Wire Line
-	10250 4475 10250 4575
-Wire Wire Line
-	9900 4875 9900 4950
-Wire Wire Line
-	10250 4875 10250 4950
-$Comp
-L power:GND #PWR016
-U 1 1 5FCFED9C
-P 9900 5250
-F 0 "#PWR016" H 9900 5000 50  0001 C CNN
-F 1 "GND" H 9905 5077 50  0000 C CNN
-F 2 "" H 9900 5250 50  0001 C CNN
-F 3 "" H 9900 5250 50  0001 C CNN
-	1    9900 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR018
-U 1 1 5FCFF0CF
-P 10250 5250
-F 0 "#PWR018" H 10250 5000 50  0001 C CNN
-F 1 "GND" H 10255 5077 50  0000 C CNN
-F 2 "" H 10250 5250 50  0001 C CNN
-F 3 "" H 10250 5250 50  0001 C CNN
-	1    10250 5250
-	1    0    0    -1  
-$EndComp
-Text Notes 1425 4875 0    50   ~ 0
-USB 5V N.C.
 Text Notes 3150 6150 0    50   ~ 0
 5V 100mA water\nsolenoid drive
-Text Notes 9350 4925 0    50   ~ 0
-Power LEDs
 $Comp
 L 74xx:74LS04 U1
 U 3 1 5FD18B66
@@ -1699,195 +1435,6 @@ F 3 "" H 7075 4975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7075 4975
-$Comp
-L Device:R_US R13
-U 1 1 5FD3D05F
-P 7400 2650
-F 0 "R13" H 7468 2696 50  0000 L CNN
-F 1 "1k" H 7468 2605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7440 2640 50  0001 C CNN
-F 3 "https://www.koaspeer.com/pdfs/RK73B.pdf" H 7400 2650 50  0001 C CNN
-F 4 "0.10" H 7400 2650 50  0001 C CNN "Item Cost"
-F 5 "RK73B2ATTD102J" H 7400 2650 50  0001 C CNN "MFN"
-F 6 "Digi-Key" H 7400 2650 50  0001 C CNN "Supplier"
-F 7 "2019-RK73B2ATTD102JCT-ND" H 7400 2650 50  0001 C CNN "Supplier P/N"
-	1    7400 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED LED3
-U 1 1 5FD3DA0F
-P 7400 2950
-F 0 "LED3" V 7439 2832 50  0000 R CNN
-F 1 "LED" V 7348 2832 50  0000 R CNN
-F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 7400 2950 50  0001 C CNN
-F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP934CB-GD.pdf" H 7400 2950 50  0001 C CNN
-F 4 "0.53" H 7400 2950 50  0001 C CNN "Item Cost"
-F 5 "WP1384AD/GD" H 7400 2950 50  0001 C CNN "MFN"
-F 6 "Digi-Key" H 7400 2950 50  0001 C CNN "Supplier"
-F 7 "754-1711-ND" H 7400 2950 50  0001 C CNN "Supplier P/N"
-	1    7400 2950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2525 2250 2525 2050
-Wire Wire Line
-	2525 2050 1975 2050
-$Comp
-L Device:R_US R14
-U 1 1 5FD70B2F
-P 7825 925
-F 0 "R14" H 7893 971 50  0000 L CNN
-F 1 "1k" H 7893 880 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7865 915 50  0001 C CNN
-F 3 "https://www.koaspeer.com/pdfs/RK73B.pdf" H 7825 925 50  0001 C CNN
-F 4 "0.10" H 7825 925 50  0001 C CNN "Item Cost"
-F 5 "RK73B2ATTD102J" H 7825 925 50  0001 C CNN "MFN"
-F 6 "Digi-Key" H 7825 925 50  0001 C CNN "Supplier"
-F 7 "2019-RK73B2ATTD102JCT-ND" H 7825 925 50  0001 C CNN "Supplier P/N"
-	1    7825 925 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED LED4
-U 1 1 5FD7150B
-P 7825 1300
-F 0 "LED4" V 7864 1182 50  0000 R CNN
-F 1 "LED" V 7773 1182 50  0000 R CNN
-F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 7825 1300 50  0001 C CNN
-F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP934CB-GD.pdf" H 7825 1300 50  0001 C CNN
-F 4 "0.53" H 7825 1300 50  0001 C CNN "Item Cost"
-F 5 "WP1384AD/GD" H 7825 1300 50  0001 C CNN "MFN"
-F 6 "Digi-Key" H 7825 1300 50  0001 C CNN "Supplier"
-F 7 "754-1711-ND" H 7825 1300 50  0001 C CNN "Supplier P/N"
-	1    7825 1300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7825 1075 7825 1150
-$Comp
-L power:+5V #PWR013
-U 1 1 5FDA0B3D
-P 7400 2500
-F 0 "#PWR013" H 7400 2350 50  0001 C CNN
-F 1 "+5V" H 7415 2673 50  0000 C CNN
-F 2 "" H 7400 2500 50  0001 C CNN
-F 3 "" H 7400 2500 50  0001 C CNN
-	1    7400 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7825 1450 7825 1550
-Connection ~ 7825 1550
-Wire Wire Line
-	7825 1550 8400 1550
-$Comp
-L power:+5V #PWR014
-U 1 1 5FDB7E3F
-P 7825 775
-F 0 "#PWR014" H 7825 625 50  0001 C CNN
-F 1 "+5V" H 7840 948 50  0000 C CNN
-F 2 "" H 7825 775 50  0001 C CNN
-F 3 "" H 7825 775 50  0001 C CNN
-	1    7825 775 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R9
-U 1 1 5FDB8435
-P 2825 5950
-F 0 "R9" H 2893 5996 50  0000 L CNN
-F 1 "1k" H 2893 5905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2865 5940 50  0001 C CNN
-F 3 "https://www.koaspeer.com/pdfs/RK73B.pdf" H 2825 5950 50  0001 C CNN
-F 4 "0.10" H 2825 5950 50  0001 C CNN "Item Cost"
-F 5 "RK73B2ATTD102J" H 2825 5950 50  0001 C CNN "MFN"
-F 6 "Digi-Key" H 2825 5950 50  0001 C CNN "Supplier"
-F 7 "2019-RK73B2ATTD102JCT-ND" H 2825 5950 50  0001 C CNN "Supplier P/N"
-	1    2825 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED LED1
-U 1 1 5FDB8E55
-P 2825 6325
-F 0 "LED1" V 2864 6207 50  0000 R CNN
-F 1 "LED" V 2773 6207 50  0000 R CNN
-F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 2825 6325 50  0001 C CNN
-F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP934CB-GD.pdf" H 2825 6325 50  0001 C CNN
-F 4 "0.53" H 2825 6325 50  0001 C CNN "Item Cost"
-F 5 "WP1384AD/GD" H 2825 6325 50  0001 C CNN "MFN"
-F 6 "Digi-Key" H 2825 6325 50  0001 C CNN "Supplier"
-F 7 "754-1711-ND" H 2825 6325 50  0001 C CNN "Supplier P/N"
-	1    2825 6325
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2825 6100 2825 6175
-$Comp
-L power:+5V #PWR06
-U 1 1 5FDB8E60
-P 2825 5800
-F 0 "#PWR06" H 2825 5650 50  0001 C CNN
-F 1 "+5V" H 2840 5973 50  0000 C CNN
-F 2 "" H 2825 5800 50  0001 C CNN
-F 3 "" H 2825 5800 50  0001 C CNN
-	1    2825 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2825 6475 2825 6725
-Connection ~ 2825 6725
-Wire Wire Line
-	2825 6725 2475 6725
-$Comp
-L Device:R_US R11
-U 1 1 5FE07D54
-P 4775 5950
-F 0 "R11" H 4843 5996 50  0000 L CNN
-F 1 "1k" H 4843 5905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4815 5940 50  0001 C CNN
-F 3 "https://www.koaspeer.com/pdfs/RK73B.pdf" H 4775 5950 50  0001 C CNN
-F 4 "0.10" H 4775 5950 50  0001 C CNN "Item Cost"
-F 5 "RK73B2ATTD102J" H 4775 5950 50  0001 C CNN "MFN"
-F 6 "Digi-Key" H 4775 5950 50  0001 C CNN "Supplier"
-F 7 "2019-RK73B2ATTD102JCT-ND" H 4775 5950 50  0001 C CNN "Supplier P/N"
-	1    4775 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED LED2
-U 1 1 5FE087B4
-P 4775 6325
-F 0 "LED2" V 4814 6207 50  0000 R CNN
-F 1 "LED" V 4723 6207 50  0000 R CNN
-F 2 "LED_THT:LED_Rectangular_W5.0mm_H2.0mm" H 4775 6325 50  0001 C CNN
-F 3 "https://www.kingbrightusa.com/images/catalog/SPEC/WP934CB-GD.pdf" H 4775 6325 50  0001 C CNN
-F 4 "0.53" H 4775 6325 50  0001 C CNN "Item Cost"
-F 5 "WP1384AD/GD" H 4775 6325 50  0001 C CNN "MFN"
-F 6 "Digi-Key" H 4775 6325 50  0001 C CNN "Supplier"
-F 7 "754-1711-ND" H 4775 6325 50  0001 C CNN "Supplier P/N"
-	1    4775 6325
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4775 6100 4775 6175
-$Comp
-L power:+5V #PWR08
-U 1 1 5FE087BF
-P 4775 5800
-F 0 "#PWR08" H 4775 5650 50  0001 C CNN
-F 1 "+5V" H 4790 5973 50  0000 C CNN
-F 2 "" H 4775 5800 50  0001 C CNN
-F 3 "" H 4775 5800 50  0001 C CNN
-	1    4775 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4775 6475 4775 6725
-Connection ~ 4775 6725
-Wire Wire Line
-	4775 6725 4425 6725
 $Bitmap
 Pos 10875 6700
 Scale 1.750000
@@ -2090,8 +1637,6 @@ EndData
 $EndBitmap
 Text Notes 5100 6050 0    50   ~ 0
 5V 100mA water\nsolenoid drive
-NoConn ~ 1400 4675
-NoConn ~ 1900 4675
 $Comp
 L power:GND #PWR0119
 U 1 1 606D8725
@@ -2267,13 +1812,6 @@ Wire Wire Line
 	8000 3000 7850 3000
 Wire Wire Line
 	7850 3000 7850 2900
-Wire Wire Line
-	8000 3200 7400 3200
-Wire Wire Line
-	7400 3200 7400 3100
-Connection ~ 7400 3200
-Wire Wire Line
-	7400 3200 7050 3200
 $Comp
 L power:GND #PWR0134
 U 1 1 6075AF07
@@ -2365,4 +1903,36 @@ Wire Wire Line
 Connection ~ 10150 3500
 Wire Wire Line
 	10150 3500 10500 3500
+Text Notes 8975 6125 0    75   ~ 0
+Rev C changes:\nDelete DC/DC for 5V and some LEDs\nMove J13 up to Rev A position
+Wire Wire Line
+	4425 6725 4900 6725
+Wire Wire Line
+	2475 6725 2950 6725
+Wire Wire Line
+	7050 3200 8000 3200
+Wire Wire Line
+	7050 1550 8400 1550
+$Comp
+L power:+5V #PWR?
+U 1 1 60BB4519
+P 1050 4975
+F 0 "#PWR?" H 1050 4825 50  0001 C CNN
+F 1 "+5V" H 1050 5125 50  0000 C CNN
+F 2 "" H 1050 4975 50  0001 C CNN
+F 3 "" H 1050 4975 50  0001 C CNN
+	1    1050 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4675 1300 4675
+Wire Wire Line
+	1300 4675 1300 4975
+Wire Wire Line
+	1300 4975 1050 4975
+Wire Wire Line
+	1300 4975 1900 4975
+Wire Wire Line
+	1900 4975 1900 4675
+Connection ~ 1300 4975
 $EndSCHEMATC
