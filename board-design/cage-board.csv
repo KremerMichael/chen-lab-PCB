@@ -1,32 +1,18 @@
-Source:,/Users/kremerme/edf/chen-lab-PCB/board-design/cage-board.sch,,,,,,,,
-Date:,"Friday, April 09, 2021 at 12:16:31 PM",,,,,,,,
-Tool:,Eeschema (5.1.9-0-10_14),,,,,,,,
-Generator:,/private/var/folders/0z/kwj7z5bd6rz4n3hl73_qgnn40000gn/T/AppTranslocation/CAF04F3A-267A-4652-AE18-5EA77B74C6F6/d/kicad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py,,,,,,,,
-Component Count:,57,,,,,,,,
-,,,,,,,,,
-Collated Components:,,,,,,,,,
-Item,Qty,Reference(s),Value,LibPart,Item Cost,MFN,Supplier,Supplier P/N,Total Cost
-1,2,"C1, C3",1uF,Device:C_Small,0.33,C0805C105K5PAC7800,Digi-Key,399-15436-1-ND,0.66
-2,1,C2,0.1uF,Device:C_Small,0.10,C0805C104Z5VACTU,Digi-Key,399-1177-1-ND,0.1
-3,1,C4,10u 50V,Device:C,0.94,C1210C106K5PAC7210,Digi-Key,399-C1210C106K5PAC7210CT-ND,0.94
-4,1,C5,22u 10V,Device:C,0.51,C0805C226M8PAC7800,Digi-Key,399-12069-1-ND,0.51
-5,4,"D1, D2, D4, D6",1N4007,Diode:1N4007,0.31,XLUR34D,Digi-Key,1497-1491-ND,1.24
-6,1,J1,Jack-DC,Connector:Barrel_Jack_Switch,1.00,CON-SOCJ-2155,Mouser,992-CON-SOCJ-2155,1
-7,1,J2,Conn_02x17_Ribbon,Connector_Generic:Conn_02x17_Odd_Even,2.55,D2534-6002-AR,Digi-Key,MHC34E-ND,2.55
-8,6,"J3, J7, J9, J16, J17, J18",TB002-500-03BE,Connector:Conn_01x03_Female,0.88,TB002-500-03BE,Digi-Key,102-6146-ND,5.28
-9,7,"J4, J5, J6, J8, J10, J11, J12",73131-0240,Connector:Conn_Coaxial,8.16,731310240,Digi-Key,WM5378-ND,57.12
-10,2,"J13, J14",Conn_01x02,Connector_Generic:Conn_01x02,1.09,691305540002,Digi-Key,732-13739-ND,2.18
-11,1,J15,Conn_02x13_test_points,Connector_Generic:Conn_02x13_Odd_Even,1.96,961226-6404-AR,Digi-Key,3M9466-26-ND,1.96
-12,6,"LED1, LED2, LED3, LED4, LED5, LED6",LED,Device:LED,0.53,LTW-420D7,Digi-Key,160-1782-ND,3.18
-13,2,"Q1, Q2",BD139,Transistor_BJT:BD139,0.46,BD13916S,Digi-Key,BD13916S-ND,0.92
-14,2,"Q3, Q4",2N3906,Transistor_BJT:2N3906,0.21,2N3906BU,Digi-Key,2N3906FS-ND,0.42
-15,4,"R1, R2, R3, R4",620,Device:R_US,0.10,RK73H2ATTD6200F,Digi-Key,2019-RK73H2ATTD6200FCT-ND,0.4
-16,2,"R5, R6",390,Device:R_US,0.10,RK73B2ATTD391J,Digi-Key,2019-RK73B2ATTD391JCT-ND,0.2
-17,2,"R7, R8",20k,Device:R_US,0.10,RK73B2ATTD203J,Digi-Key,2019-RK73B2ATTD203JCT-ND,0.2
-18,5,"R9, R11, R13, R14, R16",1k,Device:R_US,0.10,RK73B2ATTD102J,Digi-Key,2019-RK73B2ATTD102JCT-ND,0.5
-19,2,"R10, R12",1.5k,Device:R_US,0.10,RK73B2ATTD152J,Digi-Key,2019-RK73B2ATTD152JCT-ND,0.2
-20,1,R15,10k,Device:R_US,0.10,RK73B2ATTD103J,Digi-Key,2019-RK73B2ATTD103JCT-ND,0.1
-21,1,U1,74HC04,74xx:74LS06,0.73,SN74LS04N,Digi-Key,296-1629-5-ND,0.73
-22,1,U2,VX7805-500,Regulator_Linear:uA7805,2.78,VX7805-500,Digi-Key,102-4244-ND,2.78
-23,2,"U3, U4",4N25,Isolator:4N25,0.60,4N25,Digi-Key,4N25VS-ND,1.2
-,,,,,,,,Total Cost:,84.37
+Reference, Quantity, Value, Footprint, Datasheet, Item Cost, MFN, Supplier, Supplier P/N
+C1 ,1,"1uF","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf","0.33","C0805C105K5PAC7800","Digi-Key","399-15436-1-ND"
+C2 ,1,"0.1uF","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","https://content.kemet.com/datasheets/KEM_C1005_Y5V_SMD.pdf","0.10","C0805C104Z5VACTU","Digi-Key","399-1177-1-ND"
+D1 D2 D4 D6 ,4,"1N4007","Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal","http://www.vishay.com/docs/88503/1n4001.pdf","0.31","XLUR34D","Digi-Key","1497-1491-ND"
+J1 ,1,"Jack-DC","Connector_BarrelJack:BarrelJack_Horizontal","~","1.00","CON-SOCJ-2155","Mouser","992-CON-SOCJ-2155"
+J4 J5 J6 J8 J10 J11 J12 ,7,"73131-0240","chen-lab:BNC-Chen","https://www.molex.com/pdm_docs/sd/731310240_sd.pdf","8.16","0731310240","Digi-Key","WM5378-ND"
+J13 J14 ,2,"Conn_01x02","TerminalBlock:TerminalBlock_bornier-2_P5.08mm","https://www.we-online.com/catalog/datasheet/691305540002.pdf","1.09","691305540002","Digi-Key","732-13739-ND"
+J15 ,1,"Conn_02x13_test_points","Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical","https://media.digikey.com/pdf/Data%20Sheets/3M%20PDFs/961_2.54mm_StraightSolderTail_DS.pdf","1.96","961226-6404-AR","Digi-Key","3M9466-26-ND"
+J2 ,1,"Conn_02x17_Ribbon","Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical","https://multimedia.3m.com/mws/media/555044O/3m-interconnect-products-shortform-catalog.pdf","2.55","D2534-6002-AR","Digi-Key","MHC34E-ND"
+J3 J7 J9 J16 J17 J18 ,6,"TB002-500-03BE","TerminalBlock:TerminalBlock_bornier-3_P5.08mm","https://www.cuidevices.com/product/resource/tb002-500.pdf","0.88","TB002-500-03BE","Digi-Key","102-6146-ND"
+Q1 Q2 ,2,"BD139","Package_TO_SOT_THT:TO-126-3_Vertical","https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BD135,137,139.pdf","0.46","BD13916S","Digi-Key","BD13916S-ND"
+Q3 Q4 ,2,"2N3906","Package_TO_SOT_THT:TO-92_Inline","https://www.onsemi.com/pub/Collateral/2N3906-D.PDF","0.21","2N3906BU","Digi-Key","2N3906FS-ND"
+R10 R12 ,2,"1.5k","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","https://www.koaspeer.com/pdfs/RK73B.pdf","0.10","RK73B2ATTD152J","Digi-Key","2019-RK73B2ATTD152JCT-ND"
+R1 R2 R3 R4 ,4,"620","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","http://www.koaspeer.com/pdfs/RK73H.pdf","0.10","RK73H2ATTD6200F","Digi-Key","2019-RK73H2ATTD6200FCT-ND"
+R5 R6 ,2,"390","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","http://www.koaspeer.com/pdfs/RK73B.pdf","0.10","RK73B2ATTD391J","Digi-Key","2019-RK73B2ATTD391JCT-ND"
+R7 R8 ,2,"20k","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","http://www.koaspeer.com/pdfs/RK73B.pdf","0.10","RK73B2ATTD203J","Digi-Key","2019-RK73B2ATTD203JCT-ND"
+U1 ,1,"74HC04","Package_DIP:DIP-14_W7.62mm_Socket_LongPads","https://www.ti.com/lit/ds/symlink/sn74ls04.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1609866968763","0.73","SN74LS04N","Digi-Key","296-1629-5-ND"
+U3 U4 ,2,"4N25","Package_DIP:DIP-6_W7.62mm","https://www.vishay.com/docs/83725/4n25.pdf","0.60","4N25","Digi-Key","4N25VS-ND"
