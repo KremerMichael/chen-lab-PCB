@@ -1,7 +1,7 @@
 Reference, Quantity, Value, Footprint, Datasheet, Item Cost, MFN, Supplier, Supplier P/N
 C1 ,1,"1uF","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf","0.33","C0805C105K5PAC7800","Digi-Key","399-15436-1-ND"
 C2 ,1,"0.1uF","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","https://content.kemet.com/datasheets/KEM_C1005_Y5V_SMD.pdf","0.10","C0805C104Z5VACTU","Digi-Key","399-1177-1-ND"
-D1 D2 D4 D6 ,4,"1N4007","Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal","http://www.vishay.com/docs/88503/1n4001.pdf","0.31","XLUR34D","Digi-Key","1497-1491-ND"
+D1 D2 D4 D6 ,4,"1N4007","Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal","http://www.vishay.com/docs/88503/1n4001.pdf","0.31","1N4007","Digi-Key","1N4007MSCT-ND"
 J1 ,1,"Jack-DC","Connector_BarrelJack:BarrelJack_Horizontal","~","1.00","CON-SOCJ-2155","Mouser","992-CON-SOCJ-2155"
 J4 J5 J6 J8 J10 J11 J12 ,7,"73131-0240","chen-lab:BNC-Chen","https://www.molex.com/pdm_docs/sd/731310240_sd.pdf","8.16","0731310240","Digi-Key","WM5378-ND"
 J13 J14 ,2,"Conn_01x02","TerminalBlock:TerminalBlock_bornier-2_P5.08mm","https://www.we-online.com/catalog/datasheet/691305540002.pdf","1.09","691305540002","Digi-Key","732-13739-ND"
